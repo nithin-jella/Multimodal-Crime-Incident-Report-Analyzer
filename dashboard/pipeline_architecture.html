@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Multimodal Crime / Incident Report Analyzer — Pipeline Architecture</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #0f1117;
+      color: #e2e8f0;
+      padding: 32px 24px;
+      min-height: 100vh;
+    }
+    h1 {
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #f1f5f9;
+      margin-bottom: 6px;
+      letter-spacing: 0.5px;
+    }
+    .subtitle {
+      text-align: center;
+      font-size: 0.85rem;
+      color: #94a3b8;
+      margin-bottom: 36px;
+    }
+
+    /* ── PIPELINE WRAPPER ── */
+    .pipeline {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    /* ── STAGE LABEL ── */
+    .stage-label {
+      text-align: center;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #64748b;
+      margin-bottom: 8px;
+      margin-top: 24px;
+    }
+
+    /* ── ROW OF CARDS ── */
+    .row {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    /* ── CARD BASE ── */
+    .card {
+      border-radius: 12px;
+      padding: 14px 16px;
+      min-width: 160px;
+      max-width: 200px;
+      flex: 1;
+      border: 1px solid rgba(255,255,255,0.08);
+      position: relative;
+    }
+    .card .icon { font-size: 1.6rem; margin-bottom: 6px; }
+    .card .title {
+      font-size: 0.82rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .card .detail {
+      font-size: 0.7rem;
+      color: #94a3b8;
+      line-height: 1.5;
+    }
+    .card .badge {
+      display: inline-block;
+      font-size: 0.62rem;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 999px;
+      margin-top: 6px;
+      margin-right: 3px;
+    }
+
+    /* ── SOURCE CARDS ── */
+    .card.audio    { background: #1e1a2e; border-color: #7c3aed40; }
+    .card.docs     { background: #1a1f2e; border-color: #2563eb40; }
+    .card.images   { background: #1a2e1e; border-color: #16a34a40; }
+    .card.video    { background: #2e1a2e; border-color: #db2777_40; border-color: #db277740; }
+    .card.text     { background: #2e231a; border-color: #ea580c40; }
+
+    .badge.audio   { background: #7c3aed22; color: #a78bfa; border: 1px solid #7c3aed44; }
+    .badge.docs    { background: #2563eb22; color: #93c5fd; border: 1px solid #2563eb44; }
+    .badge.images  { background: #16a34a22; color: #86efac; border: 1px solid #16a34a44; }
+    .badge.video   { background: #db277722; color: #f9a8d4; border: 1px solid #db277744; }
+    .badge.text    { background: #ea580c22; color: #fdba74; border: 1px solid #ea580c44; }
+
+    /* ── AI MODULE CARDS ── */
+    .card.mod-audio   { background: #1e1a2e; border-color: #7c3aed60; border-width: 2px; }
+    .card.mod-docs    { background: #1a1f2e; border-color: #2563eb60; border-width: 2px; }
+    .card.mod-images  { background: #1a2e1e; border-color: #16a34a60; border-width: 2px; }
+    .card.mod-video   { background: #2e1a2e; border-color: #db277760; border-width: 2px; }
+    .card.mod-text    { background: #2e231a; border-color: #ea580c60; border-width: 2px; }
+
+    /* ── OUTPUT CARDS ── */
+    .card.out-audio   { background: #1e1a2e88; border-color: #7c3aed30; }
+    .card.out-docs    { background: #1a1f2e88; border-color: #2563eb30; }
+    .card.out-images  { background: #1a2e1e88; border-color: #16a34a30; }
+    .card.out-video   { background: #2e1a2e88; border-color: #db277730; }
+    .card.out-text    { background: #2e231a88; border-color: #ea580c30; }
+
+    .card .owner-tag {
+      font-size: 0.65rem;
+      color: #64748b;
+      margin-top: 8px;
+      padding-top: 7px;
+      border-top: 1px solid rgba(255,255,255,0.07);
+      letter-spacing: 0.2px;
+    }
+
+    .card .rows-pill {
+      position: absolute;
+      top: 10px; right: 10px;
+      font-size: 0.6rem;
+      font-weight: 700;
+      background: #ffffff10;
+      border: 1px solid #ffffff15;
+      border-radius: 999px;
+      padding: 2px 7px;
+      color: #94a3b8;
+    }
+
+    /* ── INTEGRATION CARD ── */
+    .card.integration {
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      border: 2px solid #38bdf860;
+      min-width: 260px;
+      max-width: 340px;
+    }
+    .badge.integration { background: #0284c722; color: #7dd3fc; border: 1px solid #0284c744; }
+
+    /* ── DASHBOARD CARD ── */
+    .card.dashboard {
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      border: 2px solid #f59e0b60;
+      min-width: 300px;
+      max-width: 420px;
+    }
+    .badge.dashboard { background: #d9770622; color: #fcd34d; border: 1px solid #d9770644; }
+
+    /* ── ARROWS ── */
+    .arrow-row {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 4px 0;
+    }
+    .arrow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 160px;
+      max-width: 200px;
+      flex: 1;
+      color: #475569;
+      font-size: 1.1rem;
+    }
+    .arrow-single {
+      display: flex;
+      justify-content: center;
+      color: #475569;
+      font-size: 1.2rem;
+      margin: 4px 0;
+    }
+
+    /* ── SEPARATOR ── */
+    .sep {
+      border: none;
+      border-top: 1px solid #1e293b;
+      margin: 20px 0 4px;
+    }
+
+    /* ── LEGEND ── */
+    .legend {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid #1e293b;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.72rem;
+      color: #94a3b8;
+    }
+    .legend-dot {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+
+<h1>🔍 Multimodal Crime / Incident Report Analyzer</h1>
+<p class="subtitle">AI Pipeline Architecture — Group Assignment, AI for Engineers</p>
+
+<div class="pipeline">
+
+  <!-- ── STAGE 1: DATA SOURCES ── -->
+  <div class="stage-label">Stage 1 — Unstructured Data Sources</div>
+  <div class="row">
+    <div class="card audio">
+      <div class="icon">🎙️</div>
+      <div class="title">Audio</div>
+      <div class="detail">5 synthetic emergency call recordings (.mp3)</div>
+      <span class="badge audio">gTTS generated</span>
+    </div>
+    <div class="card docs">
+      <div class="icon">📄</div>
+      <div class="title">Documents</div>
+      <div class="detail">Arkansas PD 1033 Training Proposals (75-page PDF, FOIA)</div>
+      <span class="badge docs">MuckRock</span>
+    </div>
+    <div class="card images">
+      <div class="icon">🖼️</div>
+      <div class="title">Images</div>
+      <div class="detail">154 fire / smoke scene photographs</div>
+      <span class="badge images">Roboflow</span>
+    </div>
+    <div class="card video">
+      <div class="icon">📹</div>
+      <div class="title">Video</div>
+      <div class="detail">12 CCTV surveillance clips (.mpg)</div>
+      <span class="badge video">CAVIAR Dataset</span>
+    </div>
+    <div class="card text">
+      <div class="icon">📝</div>
+      <div class="title">Text</div>
+      <div class="detail">127 written crime reports</div>
+      <span class="badge text">Kaggle CrimeReport</span>
+    </div>
+  </div>
+
+  <!-- arrows -->
+  <div class="arrow-row">
+    <div class="arrow">↓</div>
+    <div class="arrow">↓</div>
+    <div class="arrow">↓</div>
+    <div class="arrow">↓</div>
+    <div class="arrow">↓</div>
+  </div>
+
+  <!-- ── STAGE 2: AI MODULES ── -->
+  <div class="stage-label">Stage 2 — AI Processing Modules</div>
+  <div class="row">
+    <div class="card mod-audio">
+      <div class="icon">🤖</div>
+      <div class="title">Audio Analyst</div>
+      <div class="detail">
+        Whisper ASR → transcript<br/>
+        spaCy NER (locations, entities)<br/>
+        HuggingFace sentiment<br/>
+        Urgency scoring
+      </div>
+      <br/>
+      <span class="badge audio">modules/audio_analyst.py</span>
+      <div class="owner-tag">👤 Adithya Reddy Geeda</div>
+    </div>
+    <div class="card mod-docs">
+      <div class="icon">🤖</div>
+      <div class="title">Document Analyst</div>
+      <div class="detail">
+        pdfplumber text extraction<br/>
+        PyMuPDF + OCR fallback<br/>
+        spaCy NER (dates, locations)<br/>
+        Regex field extraction
+      </div>
+      <br/>
+      <span class="badge docs">modules/document_analyst.py</span>
+      <div class="owner-tag">👤 Vidya Cheekuri</div>
+    </div>
+    <div class="card mod-images">
+      <div class="icon">🤖</div>
+      <div class="title">Image Analyst</div>
+      <div class="detail">
+        Roboflow fire detection model<br/>
+        YOLOv8 object detection<br/>
+        pytesseract OCR<br/>
+        Scene classification
+      </div>
+      <br/>
+      <span class="badge images">modules/image_analyst.py</span>
+      <div class="owner-tag">👤 Adithya Reddy Geeda</div>
+    </div>
+    <div class="card mod-video">
+      <div class="icon">🤖</div>
+      <div class="title">Video Analyst</div>
+      <div class="detail">
+        OpenCV frame extraction<br/>
+        Motion detection<br/>
+        YOLOv8 object detection<br/>
+        Event classification
+      </div>
+      <br/>
+      <span class="badge video">modules/video_analyst.py</span>
+      <div class="owner-tag">👤 Adithya Reddy Geeda</div>
+    </div>
+    <div class="card mod-text">
+      <div class="icon">🤖</div>
+      <div class="title">Text Analyst</div>
+      <div class="detail">
+        NLTK cleaning + tokenization<br/>
+        spaCy NER<br/>
+        DistilBERT sentiment<br/>
+        BART zero-shot topic classify
+      </div>
+      <br/>
+      <span class="badge text">modules/text_analyst.py</span>
+      <div class="owner-tag">👤 Meghansh</div>
+    </div>
+  </div>
+
+  <!-- arrows -->
+  <div class="arrow-row">
+    <div class="arrow">↓</div>
+    <div class="arrow">↓</div>
+    <div class="arrow">↓</div>
+    <div class="arrow">↓</div>
+    <div class="arrow">↓</div>
+  </div>
+
+  <!-- ── STAGE 3: STRUCTURED OUTPUTS ── -->
+  <div class="stage-label">Stage 3 — Structured CSV Outputs</div>
+  <div class="row">
+    <div class="card out-audio">
+      <span class="rows-pill">5 rows</span>
+      <div class="title" style="font-size:0.75rem;">audio_output.csv</div>
+      <div class="detail">AUD-001 → AUD-005<br/>Call_ID, Transcript, Event,<br/>Location, Sentiment, Urgency</div>
+    </div>
+    <div class="card out-docs">
+      <span class="rows-pill">4 rows</span>
+      <div class="title" style="font-size:0.75rem;">document_output.csv</div>
+      <div class="detail">DOC-001 → DOC-004<br/>Report_ID, Incident_Type,<br/>Date, Location, Officer</div>
+    </div>
+    <div class="card out-images">
+      <span class="rows-pill">154 rows</span>
+      <div class="title" style="font-size:0.75rem;">image_output.csv</div>
+      <div class="detail">IMG-001 → IMG-154<br/>Image_ID, Scene_Type,<br/>Objects, Text, Confidence</div>
+    </div>
+    <div class="card out-video">
+      <span class="rows-pill">230 rows</span>
+      <div class="title" style="font-size:0.75rem;">video_output.csv</div>
+      <div class="detail">VID-001 → VID-230<br/>Timestamp, Frame_ID,<br/>Event, Objects, Confidence</div>
+    </div>
+    <div class="card out-text">
+      <span class="rows-pill">127 rows</span>
+      <div class="title" style="font-size:0.75rem;">text_output.csv</div>
+      <div class="detail">TXT-001 → TXT-127<br/>Text_ID, Source, Sentiment,<br/>Entities, Topic</div>
+    </div>
+  </div>
+
+  <!-- converging arrow -->
+  <div class="arrow-single" style="font-size:2rem; margin: 8px 0 4px;">⬇</div>
+
+  <!-- ── STAGE 4: INTEGRATION ── -->
+  <div class="stage-label">Stage 4 — Data Integration</div>
+  <div class="row">
+    <div class="card integration">
+      <span class="rows-pill">515 rows</span>
+      <div class="icon">🔗</div>
+      <div class="title">Integrator</div>
+      <div class="detail" style="margin-bottom:8px;">
+        Merges all 5 module CSVs into a unified incident dataset.<br/>
+        Assigns common <strong>Incident_ID</strong> across all sources.<br/>
+        Severity scoring: <code>score = confidence × 10</code><br/>
+        Levels: Low (0–3) · Medium (3–7) · High (7–10)
+      </div>
+      <span class="badge integration">modules/integrator.py</span>
+      <span class="badge integration">final_integrated_report.csv</span>
+    </div>
+  </div>
+
+  <!-- arrow -->
+  <div class="arrow-single" style="font-size:2rem; margin: 8px 0 4px;">⬇</div>
+
+  <!-- ── STAGE 5: DASHBOARD ── -->
+  <div class="stage-label">Stage 5 — Dashboard & Query Interface</div>
+  <div class="row">
+    <div class="card dashboard">
+      <div class="icon">📊</div>
+      <div class="title">React Incident Dashboard</div>
+      <div class="detail" style="margin-bottom:8px;">
+        React + Vite + Tailwind CSS + Recharts<br/>
+        Unified incident table with source badges &amp; severity levels<br/>
+        Search, filter by source / severity / type<br/>
+        Paginated results (25 per page)<br/>
+        Charts: by source, by type, by severity<br/>
+        Incident detail modal per record
+      </div>
+      <span class="badge dashboard">dashboard/ (npm run dev)</span>
+      <span class="badge dashboard">sync_dashboard_data.py</span>
+    </div>
+  </div>
+
+</div><!-- /pipeline -->
+
+<!-- LEGEND -->
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#a78bfa"></div>Audio — Adithya Reddy Geeda</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#93c5fd"></div>Documents — Vidya Cheekuri</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#86efac"></div>Images — Adithya Reddy Geeda</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#f9a8d4"></div>Video — Adithya Reddy Geeda</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#fdba74"></div>Text — Meghansh</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#7dd3fc"></div>Integration & Dashboard — Full Team</div>
+</div>
+
+</body>
+</html>
