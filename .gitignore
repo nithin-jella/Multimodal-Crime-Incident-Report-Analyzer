@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Credentials / API keys
+kaggle.json
+*.key
+*.pem
+
+# ML / local weights (re-downloaded by ultralytics)
+yolov8n.pt
+*.pt
+
+# Large datasets & media (re-downloadable)
+*.mp3
+*.mpg
+*.mp4
+*.wav
+fire-detection.v1i.yolov8/
+data/documents/*.pdf
+
+# Node
+node_modules/
+dashboard/node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+~$*.docx

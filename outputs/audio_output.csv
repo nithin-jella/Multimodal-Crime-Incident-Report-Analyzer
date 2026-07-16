@@ -1,0 +1,6 @@
+Incident_ID,Call_ID,Transcript,Extracted_Event,Location,Sentiment,Urgency_Score
+AUD-001,call_001,Help! There's a massive fire at 45 Oak Street. The building is burning and people are trapped inside. Please hurry.,Fire,45 Oak Street,NEGATIVE,1.0
+AUD-002,call_002,I want to report a car accident on Highway 9 near exit 12. Two vehicles are involved. One driver looks injured.,Road Accident,"Highway 9, exit 12",NEGATIVE,1.0
+AUD-003,call_003,Someone just broke into the convenience store on Main Street. I saw two men running away with bags. They went north.,Theft,Unknown,NEGATIVE,0.99
+AUD-004,call_004,There's a large fight outside Central Park near the fountain. About 10 people are involved. It's getting violent.,Public Disturbance,Central Park,NEGATIVE,1.0
+AUD-005,call_005,I think I saw a suspicious person near the school on El Mavano. They were looking into car windows for about 20 minutes.,Road Accident,Unknown,NEGATIVE,0.99

@@ -1,0 +1,155 @@
+Incident_ID,Image_ID,Scene_Type,Objects_Detected,Text_Extracted,Confidence_Score
+IMG-001,fire-101-_preprocessed_jpg.rf.34c87ad56fdde2e6abf2827b42c865ce,Fire,fire,none,0.91
+IMG-002,fire-106-_preprocessed_jpg.rf.986a6ba61306d472dedbae010527864d,Fire,fire,none,0.92
+IMG-003,fire-107-_preprocessed_jpg.rf.2466948564a885109b0807c0f296284a,Fire,fire,none,0.89
+IMG-004,fire-13-_preprocessed_jpg.rf.f4356cf13ffccdfec787a57a646593d6,Fire,smoke,none,0.9
+IMG-005,fire-131-_preprocessed_jpg.rf.27bc5bb6ac2cb59f6ede6852deb7a552,Fire,fire,none,0.76
+IMG-006,fire-134-_preprocessed_jpg.rf.2913729e96ea49792b00aca74c8dd400,Fire,fire,none,0.84
+IMG-007,fire-152-_preprocessed_jpg.rf.9708e6d2660929a3a68f8a92fcd61662,Fire,fire,none,0.85
+IMG-008,fire-158-_preprocessed_jpg.rf.1894e30fed5d6a1d8ac0d5e114c5048c,Fire,fire,none,0.81
+IMG-009,fire-176-_preprocessed_jpg.rf.66b1fac49283bfbbfa1cd2c308f61c80,Fire,fire,5 it 7a. =,0.51
+IMG-010,fire-18-_preprocessed_jpg.rf.3cb10cddb19b3bb3c65b430c842e2174,Fire,fire,none,0.66
+IMG-011,fire-180-_preprocessed_jpg.rf.f46681e277d141313468348488a0019c,Fire,fire,none,0.64
+IMG-012,fire-184-_preprocessed_jpg.rf.4432e8ef9b7acfc7a7f4e81d2df23d5f,Unknown,none,NG 2 ae : p : z a ae Jawa ree a ul oR Le 4 eee ee See ee ee ae eee 4 . DG 7 Soe a 7 Pate A es G61. oer +,0.0
+IMG-013,fire-187-_preprocessed_jpg.rf.4fa34f88e6f45656d64e38f9d4d25b37,Unknown,none,none,0.0
+IMG-014,fire-195-_preprocessed_jpg.rf.cad16b34019a48b4f6baf3a4b3ea1fdd,Unknown,none,none,0.0
+IMG-015,fire-199-_preprocessed_jpg.rf.84eb1529748b89f93caec6fe0f534f5b,Unknown,none,none,0.0
+IMG-016,fire-203-_preprocessed_jpg.rf.77bbdfacf9eae1a499920766b0f5381c,Fire,fire,none,0.71
+IMG-017,fire-22-_preprocessed_jpg.rf.d0a2a4e71a2c71612d1e58397d36f68d,Fire,fire,none,0.87
+IMG-018,fire-227-_preprocessed_jpg.rf.5a017f1e2fb9bd043bec24017c0cdaa8,Fire,fire,none,0.65
+IMG-019,fire-230-_preprocessed_jpg.rf.8092d771315c9731fa0ca16c5f09ede6,Unknown,none,none,0.0
+IMG-020,fire-236-_preprocessed_jpg.rf.f08e1a90c4c876171c011be5f30cbde0,Unknown,none,none,0.0
+IMG-021,fire-237-_preprocessed_jpg.rf.24fb530fb506a8687f69667a4837be25,Unknown,none,none,0.0
+IMG-022,fire-257-_preprocessed_jpg.rf.78587768f964ae5057bffb56d5999f6a,Fire,fire,none,0.72
+IMG-023,fire-272-_preprocessed_jpg.rf.5e091e0f1dcc7ac9a90eb5ad2a5e5b22,Fire,fire,none,0.73
+IMG-024,fire-291-_preprocessed_jpg.rf.9a6bbab8d857db314506f6e4fcb8af6f,Fire,fire,none,0.66
+IMG-025,fire-298-_preprocessed_jpg.rf.4fc984b5f9a6cd97edbe6cc2494954d6,Fire,fire,none,0.8
+IMG-026,fire-319-_preprocessed_jpg.rf.d68acef81dcd90e1f3ab38acdca326e3,Fire,fire,none,0.86
+IMG-027,fire-339-_preprocessed_jpg.rf.3e73688660952ac17b3b9afcb78ea2ec,Fire,fire,none,0.65
+IMG-028,fire-345-_preprocessed_jpg.rf.b1b4a1b27513e12998a18724e377ee2a,Unknown,none,"ey www, Freenews Conall Ca",0.0
+IMG-029,fire-350-_preprocessed_jpg.rf.1c830f5715637113322cee90f7fd29ea,Fire,fire,"a ceallieg: www, Freenems Conta",0.51
+IMG-030,fire-5-_preprocessed_jpg.rf.7cbd7d7e11bd64ebaf89e74b941edf5b,Fire,fire,none,0.86
+IMG-031,fire-53-_preprocessed_jpg.rf.2f02f01e56d2cd0d62c9c6f91be03684,Fire,fire,none,0.85
+IMG-032,fire-61-_preprocessed_jpg.rf.80fd14e6ba3772056dbf4d32491ef1b1,Fire,fire,none,0.76
+IMG-033,fire-63-_preprocessed_jpg.rf.919ce5aed3bac9547d3f182cd81efdbe,Fire,fire,none,0.52
+IMG-034,fire-64-_preprocessed_jpg.rf.bd4a20d1e47a2953ef75c6728b6a1944,Fire,fire,none,0.83
+IMG-035,fire-85-_preprocessed_jpg.rf.d35f514b9733f54eb280181997088cf4,Unknown,none,none,0.0
+IMG-036,fire-86-_preprocessed_jpg.rf.a4fceec0d9bbe0b20a265c71bb13eaea,Unknown,none,none,0.0
+IMG-037,fire-87-_preprocessed_jpg.rf.bdc33741c4a0ba26a68688abeb96b2f3,Fire,fire,none,0.48
+IMG-038,fire-93-_preprocessed_jpg.rf.dc6901b0b24681548a958dd3d0b44a65,Unknown,none,none,0.0
+IMG-039,fire-99-_preprocessed_jpg.rf.ab51c6a7b076a042b0605b7d15510d9c,Fire,fire,none,0.89
+IMG-040,fire_preprocessed-27-_jpg.rf.215735457ec0c93d4e7b54dca76e0a0b,Fire,fire,none,0.78
+IMG-041,fire_preprocessed-28-_jpg.rf.9be2b7d4e375c5d7fa84702bddc4ab99,Fire,fire,none,0.67
+IMG-042,fire_preprocessed-4-_jpg.rf.4dfa07eda14a04d1d0fa831f3c3eda70,Fire,fire,none,0.71
+IMG-043,light-101-_preprocessed_jpg.rf.2de75d3132fe62f2995d010af9a4a0cc,Fire,light,none,0.8
+IMG-044,light-102-_preprocessed_jpg.rf.c272bff3179098184157b21c6a039fde,Unknown,none,none,0.0
+IMG-045,light-300-_preprocessed_jpg.rf.ece4b8de40603cdae323ef17798a2d01,Fire,light,none,0.6
+IMG-046,light-306-_preprocessed_jpg.rf.4710728e21d0891590337e8a5cfc2750,Unknown,none,none,0.0
+IMG-047,light-365-_preprocessed_jpg.rf.ecf6e87971d3dc81956e84e71974ce73,Fire,light,none,0.41
+IMG-048,light-387-_preprocessed_jpg.rf.cbc6975a7ed941dcd7358ac6f2daf7b9,Fire,light,none,0.43
+IMG-049,light-399-_preprocessed_jpg.rf.24eea9953dd5010f4a15d33dcd479b75,Fire,"light,light",none,0.52
+IMG-050,light-411-_preprocessed_jpg.rf.a36baf19f64d1a5a374e0280f9073ead,Fire,light,none,0.76
+IMG-051,light-431-_preprocessed_jpg.rf.48cdedd9cad628a54244fdd60132d7e9,Fire,light,A,0.68
+IMG-052,light-433-_preprocessed_jpg.rf.da8c8530c45188977d75b3977a8f7843,Fire,light,none,0.78
+IMG-053,light-442-_preprocessed_jpg.rf.a9e58c3fb9c6f6a6eb9c727a9adf27e0,Fire,light,none,0.79
+IMG-054,light-448-_preprocessed_jpg.rf.acef65c473acf5186413701d07afe180,Fire,light,none,0.8
+IMG-055,light-452-_preprocessed_jpg.rf.c2b7b9042b9c72a93e716ce5cc1374fe,Fire,light,none,0.76
+IMG-056,light-453-_preprocessed_jpg.rf.ce42498f6d2a2ce601eb257462d2bb52,Fire,light,none,0.77
+IMG-057,light-454-_preprocessed_jpg.rf.9f97771ab9bb6b5403c4750ab844b10b,Fire,"light,light",none,0.6
+IMG-058,light-460-_preprocessed_jpg.rf.0f65aaa708c72f344ac7d6610028201f,Fire,light,none,0.75
+IMG-059,light-493-_preprocessed_jpg.rf.2d75c58185a8f0dd65c8594cfb5e2cb8,Fire,light,none,0.83
+IMG-060,light-499-_preprocessed_jpg.rf.fa9f96f64913022a28df3a510136d038,Fire,light,none,0.84
+IMG-061,light-511-_preprocessed_jpg.rf.41cf45e85ab7c8e73419043b494fc73c,Fire,light,none,0.76
+IMG-062,light-513-_preprocessed_jpg.rf.4e9d82c914a63420099abc51a5aa6a04,Fire,light,none,0.65
+IMG-063,light-514-_preprocessed_jpg.rf.b559ffd14ac0110fc57d56ff2f111ce1,Fire,light,none,0.64
+IMG-064,light-524-_preprocessed_jpg.rf.db48ab94f9e93536a38863245d4c71b2,Fire,light,none,0.67
+IMG-065,light-554-_preprocessed_jpg.rf.f832bbae9ea5612785059b1f3fc27afd,Fire,light,none,0.8
+IMG-066,light-559-_preprocessed_jpg.rf.941d0f79f8ecf6bd543222fdf6f04093,Fire,light,none,0.74
+IMG-067,light-572-_preprocessed_jpg.rf.451cdc6d5e2641c386e854f66e9c97ec,Fire,light,none,0.75
+IMG-068,light-577-_preprocessed_jpg.rf.b822dc79f65065c54bf2a03972f0c042,Fire,light,none,0.79
+IMG-069,light-606-_preprocessed_jpg.rf.5f95f82ddd4e2c1a535989000e5b0fec,Fire,light,none,0.82
+IMG-070,light-608-_preprocessed_jpg.rf.4d151fddd8e7204d55fd94c84a2d6325,Fire,light,none,0.85
+IMG-071,light-609-_preprocessed_jpg.rf.ef1c006c5cdfaa3fd2ec20801c513c64,Fire,light,none,0.73
+IMG-072,no-fire_preprocessed-134-_jpg.rf.6361b53ed8c9f7ca3857b458f2413bec,No Fire Detected,no-fire,none,0.78
+IMG-073,no-fire_preprocessed-139-_jpg.rf.ebe3e0e7dd6d77ddff9eceb755ece077,No Fire Detected,no-fire,none,0.6
+IMG-074,no-fire_preprocessed-176-_jpg.rf.3ef836b4563ae7c908b22f78bfb5171b,No Fire Detected,no-fire,none,0.88
+IMG-075,no-fire_preprocessed-200-_jpg.rf.5feeb24f9878cd7f3331ca0a0f1f3b21,No Fire Detected,no-fire,none,0.86
+IMG-076,no-fire_preprocessed-202-_jpg.rf.c9e428cff9c717a5e3247b5d7227f4fe,No Fire Detected,no-fire,none,0.85
+IMG-077,no-fire_preprocessed-235-_jpg.rf.645d7d0f0e1de2fddd512839b3a5f84c,No Fire Detected,no-fire,none,0.69
+IMG-078,no-fire_preprocessed-237-_jpg.rf.3bc5cb77c5ad2f8425802e34dda8dbe6,No Fire Detected,no-fire,none,0.44
+IMG-079,no-fire_preprocessed-238-_jpg.rf.35d300ffbc6b86b12a06971e47e11d3b,No Fire Detected,no-fire,"1 OR ah CO ont, s reg: F: ee ee Lie",0.86
+IMG-080,no-fire_preprocessed-243-_jpg.rf.b6d65eefc8ae0822c5050d1a46634c44,Unknown,none,none,0.0
+IMG-081,no-fire_preprocessed-248-_jpg.rf.11252b286fae40b74a5ab38d4bc95f44,No Fire Detected,no-fire,none,0.9
+IMG-082,no-fire_preprocessed-255-_jpg.rf.652722cc41ad8ae3ab459f9810fe1488,Unknown,none,none,0.0
+IMG-083,no-fire_preprocessed-256-_jpg.rf.d81aa3a60ef430398217a913f3152c35,No Fire Detected,no-fire,none,0.9
+IMG-084,no-fire_preprocessed-262-_jpg.rf.b9e03d3ae05d344e719a6b7184cb4fce,No Fire Detected,no-fire,none,0.9
+IMG-085,no-fire_preprocessed-268-_jpg.rf.9fd9b685c210461b4965d81f39180851,No Fire Detected,no-fire,none,0.93
+IMG-086,no-fire_preprocessed-271-_jpg.rf.4a3e1759c776290b7af91d007eed4c40,Unknown,none,none,0.0
+IMG-087,no-fire_preprocessed-280-_jpg.rf.036366ad740e65d7430dc213c3d71340,No Fire Detected,no-fire,Pinel,0.92
+IMG-088,no-fire_preprocessed-290-_jpg.rf.555351a6dd9c2b3ccb3c27e552e71ad6,No Fire Detected,no-fire,none,0.89
+IMG-089,no-fire_preprocessed-293-_jpg.rf.381c3b6f4f01afe4e25a1f5edc3709e3,No Fire Detected,no-fire,none,0.43
+IMG-090,no-fire_preprocessed-294-_jpg.rf.3b171155ad2485b0c962de9c00c47b0e,No Fire Detected,no-fire,none,0.89
+IMG-091,no-fire_preprocessed-298-_jpg.rf.d18bc0d9c01a7c719bbb32df53cedb61,Unknown,none,none,0.0
+IMG-092,no-fire_preprocessed-299-_jpg.rf.1f7ab0d5d43dd20359a300f962f12ba8,Unknown,none,none,0.0
+IMG-093,no-fire_preprocessed-306-_jpg.rf.6f6b2f41c4d4f88f2b015b601b90baf6,No Fire Detected,no-fire,none,0.91
+IMG-094,no-fire_preprocessed-336-_jpg.rf.ed5dc4cb079d072d7e2a72675031e1b2,Unknown,none,none,0.0
+IMG-095,no-fire_preprocessed-343-_jpg.rf.f21e9fded4e10c6fe90e2f700f336c5d,No Fire Detected,no-fire,none,0.5
+IMG-096,no-fire_preprocessed-344-_jpg.rf.787b4e3776d4d0f351508467c70101d1,No Fire Detected,no-fire,none,0.5
+IMG-097,no-fire_preprocessed-347-_jpg.rf.d27986bf9ba41e0faa3b1de316e13bc1,Unknown,none,none,0.0
+IMG-098,no-fire_preprocessed-348-_jpg.rf.cd0d12ab409f4d74d1f555ea6879d3c7,Unknown,none,none,0.0
+IMG-099,no-fire_preprocessed-359-_jpg.rf.e31ba2667a817cfe297c7cdd0a951918,No Fire Detected,no-fire,none,0.62
+IMG-100,no-fire_preprocessed-362-_jpg.rf.aa738471a3801ecf344153d5394b58ed,No Fire Detected,no-fire,none,0.45
+IMG-101,no-fire_preprocessed-367-_jpg.rf.6ab6edadfcc7dac167b3c486fa7725ee,Unknown,none,none,0.0
+IMG-102,no-fire_preprocessed-392-_jpg.rf.b6d0f53c1656200b944a3baf8dae978e,No Fire Detected,no-fire,none,0.62
+IMG-103,no-fire_preprocessed-393-_jpg.rf.0df0f08f9216d034f8d756607fb57b0a,No Fire Detected,no-fire,|,0.75
+IMG-104,no-fire_preprocessed-394-_jpg.rf.06f94a9b8ef554b9c2098e2b77612a24,Unknown,none,none,0.0
+IMG-105,no-fire_preprocessed-399-_jpg.rf.00e29cc4fd1865e71d94b4965ecab00d,Unknown,none,none,0.0
+IMG-106,no-fire_preprocessed-42-_jpg.rf.327c5aa5e007d86f4f7c1fd93ef3af2d,No Fire Detected,no-fire,none,0.84
+IMG-107,no-fire_preprocessed-46-_jpg.rf.07d6f326bbfb4063d85a000165471f61,No Fire Detected,no-fire,none,0.76
+IMG-108,no-fire_preprocessed-54-_jpg.rf.15590f8caa71b0790b417ba8d63596a6,No Fire Detected,no-fire,none,0.78
+IMG-109,no-fire_preprocessed-56-_jpg.rf.7f4bfee15f9a84efa28e8d9ef8df74d5,No Fire Detected,no-fire,none,0.78
+IMG-110,no-fire_preprocessed-58-_jpg.rf.745923b10c59251887d7f3b38ccecb98,No Fire Detected,no-fire,none,0.74
+IMG-111,no-fire_preprocessed-77-_jpg.rf.995502cbd558a0b95923feb02a68c0ac,No Fire Detected,no-fire,none,0.53
+IMG-112,no-fire_preprocessed-89-_jpg.rf.63bf8182fbb672dac356ed0015b7c20c,No Fire Detected,no-fire,none,0.49
+IMG-113,smoke-108-_preprocessed_jpg.rf.985e53171a7ae6e5494850ed4c5e1e22,Fire,smoke,g-20 EHq 15:56:47,0.78
+IMG-114,smoke-11-_preprocessed_jpg.rf.4fe4c0afe9528f4aef09202fd48ae134,Unknown,none,none,0.0
+IMG-115,smoke-117-_preprocessed_jpg.rf.ff2575bf4cac6ac2e0bfb4919c73634b,Fire,smoke,B28 EEA 15:56:49 TETTVTTTITTE,0.76
+IMG-116,smoke-121-_preprocessed_jpg.rf.47375ed9324c17e4c66f706b4a9ade73,Fire,smoke,B70 FEA 15:57:00,0.87
+IMG-117,smoke-13-_preprocessed_jpg.rf.6574c879b3c3610ea9ddb48b9f368f69,Unknown,none,none,0.0
+IMG-118,smoke-130-_preprocessed_jpg.rf.c99a3baf8688f73e2857b964dd1404e2,Fire,smoke,B20 FAA 15:57:02 TTT,0.84
+IMG-119,smoke-14-_preprocessed_jpg.rf.8532a1bbd27cf18df13407026c1eb24c,Unknown,none,none,0.0
+IMG-120,smoke-151-_preprocessed_jpg.rf.75528c9a18fa17dac0d7b340f8e8daf4,Unknown,none,none,0.0
+IMG-121,smoke-156-_preprocessed_jpg.rf.6b6b32447419d49f7faa63b75b3e4af4,Fire,smoke,none,0.54
+IMG-122,smoke-163-_preprocessed_jpg.rf.dd55305e65a7a964b5667e45709b2e99,Fire,smoke,none,0.52
+IMG-123,smoke-166-_preprocessed_jpg.rf.408b8e3de659b2da71f39d4f9526727a,Fire,smoke,none,0.51
+IMG-124,smoke-180-_preprocessed_jpg.rf.1543b5b35f75532e435b993f9230a789,Unknown,none,none,0.0
+IMG-125,smoke-201-_preprocessed_jpg.rf.7a11dbb33ef70973850fa315b7b5f348,Unknown,none,none,0.0
+IMG-126,smoke-247-_preprocessed_jpg.rf.4c6093ec26678ad55dd9314a95afb892,Unknown,none,none,0.0
+IMG-127,smoke-255-_preprocessed_jpg.rf.b245d8f255a14a5f5f231848ee8c80ab,Fire,smoke,none,0.68
+IMG-128,smoke-281-_preprocessed_jpg.rf.1278b49c63b9adf012450a3b57fd0aa2,Fire,smoke,none,0.59
+IMG-129,smoke-297-_preprocessed_jpg.rf.74ab24de7a4519f81968171347b89633,Fire,fire,none,0.66
+IMG-130,smoke-308-_preprocessed_jpg.rf.f1282f8315b6a9ceb99d87e52c2665b9,Fire,smoke,none,0.7
+IMG-131,smoke-313-_preprocessed_jpg.rf.2763d40994e0c93856d2765d57ab2c91,Fire,smoke,none,0.61
+IMG-132,smoke-316-_preprocessed_jpg.rf.20d579ee9b8e6e5385e9336367894733,Unknown,none,none,0.0
+IMG-133,smoke-318-_preprocessed_jpg.rf.7c6f87d408e08d5142391cd9b0655f9b,Unknown,none,none,0.0
+IMG-134,smoke-321-_preprocessed_jpg.rf.5f9767bec128d0f353ceff0673ea62be,Fire,smoke,none,0.45
+IMG-135,smoke-326-_preprocessed_jpg.rf.24feca203b7cabe18a90ebfaa8bb9928,Fire,smoke,none,0.46
+IMG-136,smoke-337-_preprocessed_jpg.rf.44c83fcdbe03a6e94a151ead31acb45e,Fire,smoke,none,0.66
+IMG-137,smoke-4-_preprocessed_jpg.rf.da4dca00691bb756f790cc9d7459e306,Fire,smoke,none,0.84
+IMG-138,smoke-44-_preprocessed_jpg.rf.93b92c522dd51522efeb0fe6a7101e6e,Fire,smoke,none,0.91
+IMG-139,smoke-48-_preprocessed_jpg.rf.0e56e57e22389b31999ac64ae139f33e,Fire,smoke,none,0.86
+IMG-140,smoke-52-_preprocessed_jpg.rf.42b13ff74690df963b81d5c65bff118d,Fire,smoke,none,0.9
+IMG-141,smoke-55-_preprocessed_jpg.rf.42d7cbf5609f0cb41c9d926bdc274fce,Fire,smoke,none,0.41
+IMG-142,smoke-57-_preprocessed_jpg.rf.c747d7d3241af34ce24ca0996a106534,Fire,smoke,ef SAH O7e52:55,0.81
+IMG-143,smoke-67-_preprocessed_jpg.rf.329e5b96d18ac3342262318c3d2c0094,Fire,smoke,none,0.67
+IMG-144,smoke-8-_preprocessed_jpg.rf.7cb83312372dc620e31344e12334eab7,Fire,fire,none,0.78
+IMG-145,smoke-82-_preprocessed_jpg.rf.d942abb23a2d1e17e3ed7d09147ed587,Fire,smoke,none,0.77
+IMG-146,smoke-84-_preprocessed_jpg.rf.516af4965b9cddd0f5823d7db94346f5,Fire,smoke,none,0.44
+IMG-147,smoke_-13-_jpg.rf.b87322cb89a4b7e666e55afda424b5ec,Fire,smoke,BAH 3B isi,0.86
+IMG-148,smoke_-16-_jpg.rf.1b67695a16de65d45ead18e67dd5208b,Fire,smoke,Sp Mei,0.73
+IMG-149,smoke_-6-_jpg.rf.147b9aa48e3790ffdfee52b385afc30f,Fire,smoke,2017-83-28,0.82
+IMG-150,smoke_-8-_jpg.rf.2ec7bbb04f03c27a1881eee1aef10549,Fire,smoke,2017-83-28,0.74
+IMG-151,smoke_preprocessed-11-_jpg.rf.4cf687299fb2acfad6e833f071870070,Fire,smoke,2017-03-20 EFR 16:48:43,0.83
+IMG-152,smoke_preprocessed-23-_jpg.rf.4551768b36dd9c166cc50d5976c73ea5,Fire,smoke,hice tr tise,0.75
+IMG-153,smoke_preprocessed-26-_jpg.rf.db207e0d9e969ca6b29466e3bccf0a7b,Fire,smoke,none,0.75
+IMG-154,smoke_preprocessed-7-_jpg.rf.1bd614d545edb0243441b8c3f902a4e7,Fire,smoke,2017-03-20 EFA 16:48:40,0.61

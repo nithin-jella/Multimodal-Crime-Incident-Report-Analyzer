@@ -1,0 +1,506 @@
+Incident_ID,Source,Type,Location,Confidence/Urgency_Score,Severity_Score,Severity_Level,Details
+AUD-001,Audio,Fire,45 Oak Street,1.0,10.0,High,Help! There's a massive fire at 45 Oak Street. The building is burning and people are trapped inside. Please hurry.
+AUD-002,Audio,Road Accident,"Highway 9, exit 12",1.0,10.0,High,I want to report a car accident on Highway 9 near exit 12. Two vehicles are involved. One driver looks injured.
+AUD-003,Audio,Theft,Unknown,0.99,9.9,High,Someone just broke into the convenience store on Main Street. I saw two men running away with bags. They went north.
+AUD-004,Audio,Public Disturbance,Central Park,1.0,10.0,High,There's a large fight outside Central Park near the fountain. About 10 people are involved. It's getting violent.
+AUD-005,Audio,Road Accident,Unknown,0.99,9.9,High,I think I saw a suspicious person near the school on El Mavano. They were looking into car windows for about 20 minutes.
+IMG-001,Image,Fire,N/A,0.91,9.1,High,fire | OCR: none
+IMG-002,Image,Fire,N/A,0.92,9.2,High,fire | OCR: none
+IMG-003,Image,Fire,N/A,0.89,8.9,High,fire | OCR: none
+IMG-004,Image,Fire,N/A,0.9,9.0,High,smoke | OCR: none
+IMG-005,Image,Fire,N/A,0.76,7.6,High,fire | OCR: none
+IMG-006,Image,Fire,N/A,0.84,8.4,High,fire | OCR: none
+IMG-007,Image,Fire,N/A,0.85,8.5,High,fire | OCR: none
+IMG-008,Image,Fire,N/A,0.81,8.1,High,fire | OCR: none
+IMG-009,Image,Fire,N/A,0.51,5.1,Medium,fire | OCR: 5 it 7a. =
+IMG-010,Image,Fire,N/A,0.66,6.6,Medium,fire | OCR: none
+IMG-011,Image,Fire,N/A,0.64,6.4,Medium,fire | OCR: none
+IMG-012,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: NG 2 ae : p : z a ae Jawa ree a ul oR Le 4 eee ee See ee ee ae eee 4 . DG 7 Soe a 7 Pate A es G61. oer +
+IMG-013,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-014,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-015,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-016,Image,Fire,N/A,0.71,7.1,High,fire | OCR: none
+IMG-017,Image,Fire,N/A,0.87,8.7,High,fire | OCR: none
+IMG-018,Image,Fire,N/A,0.65,6.5,Medium,fire | OCR: none
+IMG-019,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-020,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-021,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-022,Image,Fire,N/A,0.72,7.2,High,fire | OCR: none
+IMG-023,Image,Fire,N/A,0.73,7.3,High,fire | OCR: none
+IMG-024,Image,Fire,N/A,0.66,6.6,Medium,fire | OCR: none
+IMG-025,Image,Fire,N/A,0.8,8.0,High,fire | OCR: none
+IMG-026,Image,Fire,N/A,0.86,8.6,High,fire | OCR: none
+IMG-027,Image,Fire,N/A,0.65,6.5,Medium,fire | OCR: none
+IMG-028,Image,Unknown,N/A,0.0,0.0,Low,"none | OCR: ey www, Freenews Conall Ca"
+IMG-029,Image,Fire,N/A,0.51,5.1,Medium,"fire | OCR: a ceallieg: www, Freenems Conta"
+IMG-030,Image,Fire,N/A,0.86,8.6,High,fire | OCR: none
+IMG-031,Image,Fire,N/A,0.85,8.5,High,fire | OCR: none
+IMG-032,Image,Fire,N/A,0.76,7.6,High,fire | OCR: none
+IMG-033,Image,Fire,N/A,0.52,5.2,Medium,fire | OCR: none
+IMG-034,Image,Fire,N/A,0.83,8.3,High,fire | OCR: none
+IMG-035,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-036,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-037,Image,Fire,N/A,0.48,4.8,Medium,fire | OCR: none
+IMG-038,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-039,Image,Fire,N/A,0.89,8.9,High,fire | OCR: none
+IMG-040,Image,Fire,N/A,0.78,7.8,High,fire | OCR: none
+IMG-041,Image,Fire,N/A,0.67,6.7,Medium,fire | OCR: none
+IMG-042,Image,Fire,N/A,0.71,7.1,High,fire | OCR: none
+IMG-043,Image,Fire,N/A,0.8,8.0,High,light | OCR: none
+IMG-044,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-045,Image,Fire,N/A,0.6,6.0,Medium,light | OCR: none
+IMG-046,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-047,Image,Fire,N/A,0.41,4.1,Medium,light | OCR: none
+IMG-048,Image,Fire,N/A,0.43,4.3,Medium,light | OCR: none
+IMG-049,Image,Fire,N/A,0.52,5.2,Medium,"light,light | OCR: none"
+IMG-050,Image,Fire,N/A,0.76,7.6,High,light | OCR: none
+IMG-051,Image,Fire,N/A,0.68,6.8,Medium,light | OCR: A
+IMG-052,Image,Fire,N/A,0.78,7.8,High,light | OCR: none
+IMG-053,Image,Fire,N/A,0.79,7.9,High,light | OCR: none
+IMG-054,Image,Fire,N/A,0.8,8.0,High,light | OCR: none
+IMG-055,Image,Fire,N/A,0.76,7.6,High,light | OCR: none
+IMG-056,Image,Fire,N/A,0.77,7.7,High,light | OCR: none
+IMG-057,Image,Fire,N/A,0.6,6.0,Medium,"light,light | OCR: none"
+IMG-058,Image,Fire,N/A,0.75,7.5,High,light | OCR: none
+IMG-059,Image,Fire,N/A,0.83,8.3,High,light | OCR: none
+IMG-060,Image,Fire,N/A,0.84,8.4,High,light | OCR: none
+IMG-061,Image,Fire,N/A,0.76,7.6,High,light | OCR: none
+IMG-062,Image,Fire,N/A,0.65,6.5,Medium,light | OCR: none
+IMG-063,Image,Fire,N/A,0.64,6.4,Medium,light | OCR: none
+IMG-064,Image,Fire,N/A,0.67,6.7,Medium,light | OCR: none
+IMG-065,Image,Fire,N/A,0.8,8.0,High,light | OCR: none
+IMG-066,Image,Fire,N/A,0.74,7.4,High,light | OCR: none
+IMG-067,Image,Fire,N/A,0.75,7.5,High,light | OCR: none
+IMG-068,Image,Fire,N/A,0.79,7.9,High,light | OCR: none
+IMG-069,Image,Fire,N/A,0.82,8.2,High,light | OCR: none
+IMG-070,Image,Fire,N/A,0.85,8.5,High,light | OCR: none
+IMG-071,Image,Fire,N/A,0.73,7.3,High,light | OCR: none
+IMG-072,Image,No Fire Detected,N/A,0.78,7.8,High,no-fire | OCR: none
+IMG-073,Image,No Fire Detected,N/A,0.6,6.0,Medium,no-fire | OCR: none
+IMG-074,Image,No Fire Detected,N/A,0.88,8.8,High,no-fire | OCR: none
+IMG-075,Image,No Fire Detected,N/A,0.86,8.6,High,no-fire | OCR: none
+IMG-076,Image,No Fire Detected,N/A,0.85,8.5,High,no-fire | OCR: none
+IMG-077,Image,No Fire Detected,N/A,0.69,6.9,Medium,no-fire | OCR: none
+IMG-078,Image,No Fire Detected,N/A,0.44,4.4,Medium,no-fire | OCR: none
+IMG-079,Image,No Fire Detected,N/A,0.86,8.6,High,"no-fire | OCR: 1 OR ah CO ont, s reg: F: ee ee Lie"
+IMG-080,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-081,Image,No Fire Detected,N/A,0.9,9.0,High,no-fire | OCR: none
+IMG-082,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-083,Image,No Fire Detected,N/A,0.9,9.0,High,no-fire | OCR: none
+IMG-084,Image,No Fire Detected,N/A,0.9,9.0,High,no-fire | OCR: none
+IMG-085,Image,No Fire Detected,N/A,0.93,9.3,High,no-fire | OCR: none
+IMG-086,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-087,Image,No Fire Detected,N/A,0.92,9.2,High,no-fire | OCR: Pinel
+IMG-088,Image,No Fire Detected,N/A,0.89,8.9,High,no-fire | OCR: none
+IMG-089,Image,No Fire Detected,N/A,0.43,4.3,Medium,no-fire | OCR: none
+IMG-090,Image,No Fire Detected,N/A,0.89,8.9,High,no-fire | OCR: none
+IMG-091,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-092,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-093,Image,No Fire Detected,N/A,0.91,9.1,High,no-fire | OCR: none
+IMG-094,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-095,Image,No Fire Detected,N/A,0.5,5.0,Medium,no-fire | OCR: none
+IMG-096,Image,No Fire Detected,N/A,0.5,5.0,Medium,no-fire | OCR: none
+IMG-097,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-098,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-099,Image,No Fire Detected,N/A,0.62,6.2,Medium,no-fire | OCR: none
+IMG-100,Image,No Fire Detected,N/A,0.45,4.5,Medium,no-fire | OCR: none
+IMG-101,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-102,Image,No Fire Detected,N/A,0.62,6.2,Medium,no-fire | OCR: none
+IMG-103,Image,No Fire Detected,N/A,0.75,7.5,High,no-fire | OCR: |
+IMG-104,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-105,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-106,Image,No Fire Detected,N/A,0.84,8.4,High,no-fire | OCR: none
+IMG-107,Image,No Fire Detected,N/A,0.76,7.6,High,no-fire | OCR: none
+IMG-108,Image,No Fire Detected,N/A,0.78,7.8,High,no-fire | OCR: none
+IMG-109,Image,No Fire Detected,N/A,0.78,7.8,High,no-fire | OCR: none
+IMG-110,Image,No Fire Detected,N/A,0.74,7.4,High,no-fire | OCR: none
+IMG-111,Image,No Fire Detected,N/A,0.53,5.3,Medium,no-fire | OCR: none
+IMG-112,Image,No Fire Detected,N/A,0.49,4.9,Medium,no-fire | OCR: none
+IMG-113,Image,Fire,N/A,0.78,7.8,High,smoke | OCR: g-20 EHq 15:56:47
+IMG-114,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-115,Image,Fire,N/A,0.76,7.6,High,smoke | OCR: B28 EEA 15:56:49 TETTVTTTITTE
+IMG-116,Image,Fire,N/A,0.87,8.7,High,smoke | OCR: B70 FEA 15:57:00
+IMG-117,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-118,Image,Fire,N/A,0.84,8.4,High,smoke | OCR: B20 FAA 15:57:02 TTT
+IMG-119,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-120,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-121,Image,Fire,N/A,0.54,5.4,Medium,smoke | OCR: none
+IMG-122,Image,Fire,N/A,0.52,5.2,Medium,smoke | OCR: none
+IMG-123,Image,Fire,N/A,0.51,5.1,Medium,smoke | OCR: none
+IMG-124,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-125,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-126,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-127,Image,Fire,N/A,0.68,6.8,Medium,smoke | OCR: none
+IMG-128,Image,Fire,N/A,0.59,5.9,Medium,smoke | OCR: none
+IMG-129,Image,Fire,N/A,0.66,6.6,Medium,fire | OCR: none
+IMG-130,Image,Fire,N/A,0.7,7.0,High,smoke | OCR: none
+IMG-131,Image,Fire,N/A,0.61,6.1,Medium,smoke | OCR: none
+IMG-132,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-133,Image,Unknown,N/A,0.0,0.0,Low,none | OCR: none
+IMG-134,Image,Fire,N/A,0.45,4.5,Medium,smoke | OCR: none
+IMG-135,Image,Fire,N/A,0.46,4.6,Medium,smoke | OCR: none
+IMG-136,Image,Fire,N/A,0.66,6.6,Medium,smoke | OCR: none
+IMG-137,Image,Fire,N/A,0.84,8.4,High,smoke | OCR: none
+IMG-138,Image,Fire,N/A,0.91,9.1,High,smoke | OCR: none
+IMG-139,Image,Fire,N/A,0.86,8.6,High,smoke | OCR: none
+IMG-140,Image,Fire,N/A,0.9,9.0,High,smoke | OCR: none
+IMG-141,Image,Fire,N/A,0.41,4.1,Medium,smoke | OCR: none
+IMG-142,Image,Fire,N/A,0.81,8.1,High,smoke | OCR: ef SAH O7e52:55
+IMG-143,Image,Fire,N/A,0.67,6.7,Medium,smoke | OCR: none
+IMG-144,Image,Fire,N/A,0.78,7.8,High,fire | OCR: none
+IMG-145,Image,Fire,N/A,0.77,7.7,High,smoke | OCR: none
+IMG-146,Image,Fire,N/A,0.44,4.4,Medium,smoke | OCR: none
+IMG-147,Image,Fire,N/A,0.86,8.6,High,smoke | OCR: BAH 3B isi
+IMG-148,Image,Fire,N/A,0.73,7.3,High,smoke | OCR: Sp Mei
+IMG-149,Image,Fire,N/A,0.82,8.2,High,smoke | OCR: 2017-83-28
+IMG-150,Image,Fire,N/A,0.74,7.4,High,smoke | OCR: 2017-83-28
+IMG-151,Image,Fire,N/A,0.83,8.3,High,smoke | OCR: 2017-03-20 EFR 16:48:43
+IMG-152,Image,Fire,N/A,0.75,7.5,High,smoke | OCR: hice tr tise
+IMG-153,Image,Fire,N/A,0.75,7.5,High,smoke | OCR: none
+IMG-154,Image,Fire,N/A,0.61,6.1,Medium,smoke | OCR: 2017-03-20 EFA 16:48:40
+VID-001,Video,Crowd Gathering,N/A,0.77,7.7,High,OneStopMoveEnter1cor_frame_60 | person
+VID-002,Video,Crowd Gathering,N/A,0.72,7.2,High,OneStopMoveEnter1cor_frame_80 | person
+VID-003,Video,Crowd Gathering,N/A,0.71,7.1,High,OneStopMoveEnter1cor_frame_90 | person
+VID-004,Video,Crowd Gathering,N/A,0.68,6.8,Medium,"OneStopMoveEnter1cor_frame_100 | person, handbag"
+VID-005,Video,Crowd Gathering,N/A,0.72,7.2,High,OneStopMoveEnter1cor_frame_110 | person
+VID-006,Video,Crowd Gathering,N/A,0.72,7.2,High,OneStopMoveEnter1cor_frame_120 | person
+VID-007,Video,Crowd Gathering,N/A,0.82,8.2,High,OneStopMoveEnter1cor_frame_130 | person
+VID-008,Video,Crowd Gathering,N/A,0.8,8.0,High,OneStopMoveEnter1cor_frame_140 | person
+VID-009,Video,Crowd Gathering,N/A,0.82,8.2,High,OneStopMoveEnter1cor_frame_150 | person
+VID-010,Video,Crowd Gathering,N/A,0.77,7.7,High,OneStopMoveEnter1cor_frame_160 | person
+VID-011,Video,Crowd Gathering,N/A,0.79,7.9,High,OneStopMoveEnter1cor_frame_170 | person
+VID-012,Video,Crowd Gathering,N/A,0.79,7.9,High,OneStopMoveEnter1cor_frame_180 | person
+VID-013,Video,Crowd Gathering,N/A,0.81,8.1,High,OneStopMoveEnter1cor_frame_190 | person
+VID-014,Video,Crowd Gathering,N/A,0.82,8.2,High,OneStopMoveEnter1cor_frame_200 | person
+VID-015,Video,Crowd Gathering,N/A,0.8,8.0,High,OneStopMoveEnter1cor_frame_210 | person
+VID-016,Video,Crowd Gathering,N/A,0.79,7.9,High,OneStopMoveEnter1cor_frame_220 | person
+VID-017,Video,Crowd Gathering,N/A,0.76,7.6,High,OneStopMoveEnter1cor_frame_230 | person
+VID-018,Video,Crowd Gathering,N/A,0.76,7.6,High,OneStopMoveEnter1cor_frame_240 | person
+VID-019,Video,Crowd Gathering,N/A,0.75,7.5,High,OneStopMoveEnter1cor_frame_250 | person
+VID-020,Video,Crowd Gathering,N/A,0.76,7.6,High,OneStopMoveEnter1cor_frame_260 | person
+VID-021,Video,Crowd Gathering,N/A,0.77,7.7,High,OneStopMoveEnter1cor_frame_270 | person
+VID-022,Video,Crowd Gathering,N/A,0.78,7.8,High,OneStopMoveEnter1cor_frame_280 | person
+VID-023,Video,Crowd Gathering,N/A,0.78,7.8,High,OneStopMoveEnter1cor_frame_290 | person
+VID-024,Video,Crowd Gathering,N/A,0.77,7.7,High,OneStopMoveEnter1cor_frame_300 | person
+VID-025,Video,Crowd Gathering,N/A,0.76,7.6,High,OneStopMoveEnter1cor_frame_310 | person
+VID-026,Video,Crowd Gathering,N/A,0.67,6.7,Medium,OneStopMoveEnter1cor_frame_320 | person
+VID-027,Video,Crowd Gathering,N/A,0.69,6.9,Medium,OneStopMoveEnter1cor_frame_330 | person
+VID-028,Video,Crowd Gathering,N/A,0.72,7.2,High,OneStopMoveEnter1cor_frame_340 | person
+VID-029,Video,Crowd Gathering,N/A,0.73,7.3,High,OneStopMoveEnter1cor_frame_350 | person
+VID-030,Video,Crowd Gathering,N/A,0.7,7.0,High,"OneStopMoveEnter1cor_frame_360 | person, handbag"
+VID-031,Video,Crowd Gathering,N/A,0.75,7.5,High,OneStopMoveEnter1cor_frame_370 | person
+VID-032,Video,Crowd Gathering,N/A,0.81,8.1,High,OneStopMoveEnter1cor_frame_380 | person
+VID-033,Video,Crowd Gathering,N/A,0.74,7.4,High,OneStopMoveEnter1cor_frame_390 | person
+VID-034,Video,Crowd Gathering,N/A,0.79,7.9,High,OneStopMoveEnter1cor_frame_400 | person
+VID-035,Video,Crowd Gathering,N/A,0.8,8.0,High,OneStopMoveEnter1cor_frame_410 | person
+VID-036,Video,Crowd Gathering,N/A,0.74,7.4,High,OneStopMoveEnter1cor_frame_420 | person
+VID-037,Video,Crowd Gathering,N/A,0.78,7.8,High,OneStopMoveEnter1cor_frame_430 | person
+VID-038,Video,Crowd Gathering,N/A,0.65,6.5,Medium,OneStopMoveEnter1cor_frame_440 | person
+VID-039,Video,Crowd Gathering,N/A,0.64,6.4,Medium,OneStopMoveEnter1cor_frame_450 | person
+VID-040,Video,Crowd Gathering,N/A,0.65,6.5,Medium,OneStopMoveEnter1cor_frame_460 | person
+VID-041,Video,Crowd Gathering,N/A,0.7,7.0,High,OneStopMoveEnter1cor_frame_470 | person
+VID-042,Video,Crowd Gathering,N/A,0.7,7.0,High,OneStopMoveEnter1cor_frame_480 | person
+VID-043,Video,Crowd Gathering,N/A,0.75,7.5,High,OneStopMoveEnter1cor_frame_490 | person
+VID-044,Video,Crowd Gathering,N/A,0.73,7.3,High,OneStopMoveEnter1cor_frame_500 | person
+VID-045,Video,Crowd Gathering,N/A,0.79,7.9,High,OneStopMoveEnter1cor_frame_510 | person
+VID-046,Video,Crowd Gathering,N/A,0.78,7.8,High,OneStopMoveEnter1cor_frame_520 | person
+VID-047,Video,Crowd Gathering,N/A,0.79,7.9,High,OneStopMoveEnter1cor_frame_530 | person
+VID-048,Video,Crowd Gathering,N/A,0.8,8.0,High,OneStopMoveEnter1cor_frame_540 | person
+VID-049,Video,Crowd Gathering,N/A,0.77,7.7,High,OneStopMoveEnter1cor_frame_550 | person
+VID-050,Video,Crowd Gathering,N/A,0.73,7.3,High,OneStopMoveEnter1cor_frame_560 | person
+VID-051,Video,Crowd Gathering,N/A,0.7,7.0,High,OneStopMoveEnter1cor_frame_570 | person
+VID-052,Video,Crowd Gathering,N/A,0.67,6.7,Medium,"OneStopMoveEnter1cor_frame_610 | person, backpack"
+VID-053,Video,Crowd Gathering,N/A,0.65,6.5,Medium,OneStopMoveEnter1cor_frame_630 | person
+VID-054,Video,Crowd Gathering,N/A,0.81,8.1,High,OneStopMoveEnter1cor_frame_640 | person
+VID-055,Video,Crowd Gathering,N/A,0.77,7.7,High,OneStopMoveEnter1cor_frame_650 | person
+VID-056,Video,Crowd Gathering,N/A,0.73,7.3,High,OneStopMoveEnter1cor_frame_660 | person
+VID-057,Video,Crowd Gathering,N/A,0.83,8.3,High,OneStopMoveEnter1cor_frame_670 | person
+VID-058,Video,Crowd Gathering,N/A,0.81,8.1,High,OneStopMoveEnter1cor_frame_680 | person
+VID-059,Video,Crowd Gathering,N/A,0.84,8.4,High,OneStopMoveEnter1cor_frame_690 | person
+VID-060,Video,Crowd Gathering,N/A,0.85,8.5,High,OneStopMoveEnter1cor_frame_700 | person
+VID-061,Video,Crowd Gathering,N/A,0.86,8.6,High,OneStopMoveEnter1cor_frame_710 | person
+VID-062,Video,Crowd Gathering,N/A,0.85,8.5,High,OneStopMoveEnter1cor_frame_720 | person
+VID-063,Video,Crowd Gathering,N/A,0.81,8.1,High,OneStopMoveEnter1cor_frame_730 | person
+VID-064,Video,Crowd Gathering,N/A,0.82,8.2,High,OneStopMoveEnter1cor_frame_740 | person
+VID-065,Video,Crowd Gathering,N/A,0.79,7.9,High,OneStopMoveEnter1cor_frame_750 | person
+VID-066,Video,Crowd Gathering,N/A,0.83,8.3,High,OneStopMoveEnter1cor_frame_760 | person
+VID-067,Video,Crowd Gathering,N/A,0.77,7.7,High,OneStopMoveEnter1cor_frame_770 | person
+VID-068,Video,Crowd Gathering,N/A,0.76,7.6,High,OneStopMoveEnter1cor_frame_780 | person
+VID-069,Video,Crowd Gathering,N/A,0.77,7.7,High,OneStopMoveEnter1cor_frame_790 | person
+VID-070,Video,Crowd Gathering,N/A,0.77,7.7,High,OneStopMoveEnter1cor_frame_800 | person
+VID-071,Video,Crowd Gathering,N/A,0.69,6.9,Medium,OneStopMoveEnter1cor_frame_810 | person
+VID-072,Video,Crowd Gathering,N/A,0.71,7.1,High,"OneStopMoveEnter1cor_frame_820 | person, backpack"
+VID-073,Video,Crowd Gathering,N/A,0.68,6.8,Medium,OneStopMoveEnter1cor_frame_830 | person
+VID-074,Video,Crowd Gathering,N/A,0.73,7.3,High,OneStopMoveEnter1cor_frame_840 | person
+VID-075,Video,Crowd Gathering,N/A,0.73,7.3,High,OneStopMoveEnter1cor_frame_850 | person
+VID-076,Video,Crowd Gathering,N/A,0.74,7.4,High,OneStopMoveEnter1cor_frame_860 | person
+VID-077,Video,Crowd Gathering,N/A,0.68,6.8,Medium,OneStopMoveEnter1cor_frame_870 | person
+VID-078,Video,Crowd Gathering,N/A,0.81,8.1,High,OneStopMoveEnter1cor_frame_880 | person
+VID-079,Video,Crowd Gathering,N/A,0.76,7.6,High,"OneStopMoveEnter1cor_frame_890 | person, parking meter"
+VID-080,Video,Crowd Gathering,N/A,0.74,7.4,High,OneStopMoveEnter1cor_frame_900 | person
+VID-081,Video,Crowd Gathering,N/A,0.75,7.5,High,OneStopMoveEnter1cor_frame_910 | person
+VID-082,Video,Crowd Gathering,N/A,0.76,7.6,High,OneStopMoveEnter1cor_frame_920 | person
+VID-083,Video,Crowd Gathering,N/A,0.74,7.4,High,OneStopMoveEnter1cor_frame_930 | person
+VID-084,Video,Crowd Gathering,N/A,0.76,7.6,High,OneStopMoveEnter1cor_frame_940 | person
+VID-085,Video,Crowd Gathering,N/A,0.62,6.2,Medium,"OneStopMoveEnter1cor_frame_960 | person, tie"
+VID-086,Video,Crowd Gathering,N/A,0.69,6.9,Medium,"OneStopMoveEnter1cor_frame_970 | person, tie"
+VID-087,Video,Crowd Gathering,N/A,0.74,7.4,High,OneStopMoveEnter1cor_frame_980 | person
+VID-088,Video,Crowd Gathering,N/A,0.68,6.8,Medium,OneStopMoveEnter1cor_frame_990 | person
+VID-089,Video,Crowd Gathering,N/A,0.73,7.3,High,OneStopMoveEnter1cor_frame_1000 | person
+VID-090,Video,Crowd Gathering,N/A,0.79,7.9,High,OneStopMoveEnter1cor_frame_1010 | person
+VID-091,Video,Crowd Gathering,N/A,0.7,7.0,High,"OneStopMoveEnter1cor_frame_1020 | person, tie"
+VID-092,Video,Crowd Gathering,N/A,0.74,7.4,High,"OneStopMoveEnter1cor_frame_1030 | person, tie"
+VID-093,Video,Crowd Gathering,N/A,0.76,7.6,High,"OneStopMoveEnter1cor_frame_1040 | person, tie"
+VID-094,Video,Crowd Gathering,N/A,0.73,7.3,High,"OneStopMoveEnter1cor_frame_1050 | person, tie"
+VID-095,Video,Crowd Gathering,N/A,0.65,6.5,Medium,"OneStopMoveEnter1cor_frame_1060 | person, tie"
+VID-096,Video,Crowd Gathering,N/A,0.73,7.3,High,"OneStopMoveEnter1cor_frame_1070 | person, tie"
+VID-097,Video,Crowd Gathering,N/A,0.72,7.2,High,"OneStopMoveEnter1cor_frame_1080 | person, tie"
+VID-098,Video,Crowd Gathering,N/A,0.71,7.1,High,"OneStopMoveEnter1cor_frame_1090 | person, tie"
+VID-099,Video,Crowd Gathering,N/A,0.69,6.9,Medium,"OneStopMoveEnter1cor_frame_1100 | person, tie"
+VID-100,Video,Crowd Gathering,N/A,0.69,6.9,Medium,"OneStopMoveEnter1cor_frame_1110 | person, tie"
+VID-101,Video,Crowd Gathering,N/A,0.67,6.7,Medium,"OneStopMoveEnter1cor_frame_1120 | person, tie"
+VID-102,Video,Crowd Gathering,N/A,0.71,7.1,High,"OneStopMoveEnter1cor_frame_1130 | person, tie"
+VID-103,Video,Crowd Gathering,N/A,0.72,7.2,High,"OneStopMoveEnter1cor_frame_1140 | person, tie"
+VID-104,Video,Crowd Gathering,N/A,0.69,6.9,Medium,"OneStopMoveEnter1cor_frame_1150 | person, tie"
+VID-105,Video,Crowd Gathering,N/A,0.68,6.8,Medium,"OneStopMoveEnter1cor_frame_1160 | person, tie"
+VID-106,Video,Crowd Gathering,N/A,0.69,6.9,Medium,"OneStopMoveEnter1cor_frame_1170 | person, tie"
+VID-107,Video,Crowd Gathering,N/A,0.67,6.7,Medium,"OneStopMoveEnter1cor_frame_1180 | person, tie"
+VID-108,Video,Crowd Gathering,N/A,0.71,7.1,High,"OneStopMoveEnter1cor_frame_1190 | person, tie"
+VID-109,Video,Crowd Gathering,N/A,0.74,7.4,High,"OneStopMoveEnter1cor_frame_1200 | person, tie"
+VID-110,Video,Crowd Gathering,N/A,0.66,6.6,Medium,"OneStopMoveEnter1cor_frame_1210 | person, tie, backpack"
+VID-111,Video,Crowd Gathering,N/A,0.73,7.3,High,OneStopMoveEnter1cor_frame_1300 | person
+VID-112,Video,Crowd Gathering,N/A,0.62,6.2,Medium,OneStopMoveEnter1cor_frame_1310 | person
+VID-113,Video,Crowd Gathering,N/A,0.66,6.6,Medium,OneStopMoveEnter1cor_frame_1320 | person
+VID-114,Video,Crowd Gathering,N/A,0.76,7.6,High,OneStopMoveEnter1cor_frame_1480 | person
+VID-115,Video,Crowd Gathering,N/A,0.78,7.8,High,OneStopMoveEnter1cor_frame_1490 | person
+VID-116,Video,Crowd Gathering,N/A,0.76,7.6,High,OneStopMoveEnter1cor_frame_1500 | person
+VID-117,Video,Crowd Gathering,N/A,0.68,6.8,Medium,OneStopMoveEnter1cor_frame_1510 | person
+VID-118,Video,Crowd Gathering,N/A,0.7,7.0,High,OneStopMoveEnter1cor_frame_1520 | person
+VID-119,Video,Crowd Gathering,N/A,0.67,6.7,Medium,"OneStopMoveEnter1cor_frame_1530 | person, handbag"
+VID-120,Video,Crowd Gathering,N/A,0.78,7.8,High,OneStopMoveEnter1cor_frame_1540 | person
+VID-121,Video,Crowd Gathering,N/A,0.68,6.8,Medium,OneStopMoveEnter1cor_frame_1550 | person
+VID-122,Video,Crowd Gathering,N/A,0.74,7.4,High,ShopAssistant2cor_frame_260 | person
+VID-123,Video,Crowd Gathering,N/A,0.72,7.2,High,ShopAssistant2cor_frame_270 | person
+VID-124,Video,Crowd Gathering,N/A,0.78,7.8,High,ShopAssistant2cor_frame_430 | person
+VID-125,Video,Crowd Gathering,N/A,0.85,8.5,High,ShopAssistant2cor_frame_460 | person
+VID-126,Video,Crowd Gathering,N/A,0.85,8.5,High,ShopAssistant2cor_frame_470 | person
+VID-127,Video,Crowd Gathering,N/A,0.76,7.6,High,ShopAssistant2cor_frame_480 | person
+VID-128,Video,Crowd Gathering,N/A,0.75,7.5,High,ShopAssistant2cor_frame_490 | person
+VID-129,Video,Crowd Gathering,N/A,0.76,7.6,High,ShopAssistant2cor_frame_500 | person
+VID-130,Video,Crowd Gathering,N/A,0.79,7.9,High,ShopAssistant2cor_frame_510 | person
+VID-131,Video,Crowd Gathering,N/A,0.89,8.9,High,ShopAssistant2cor_frame_520 | person
+VID-132,Video,Crowd Gathering,N/A,0.89,8.9,High,ShopAssistant2cor_frame_540 | person
+VID-133,Video,Crowd Gathering,N/A,0.88,8.8,High,ShopAssistant2cor_frame_550 | person
+VID-134,Video,Crowd Gathering,N/A,0.89,8.9,High,ShopAssistant2cor_frame_560 | person
+VID-135,Video,Crowd Gathering,N/A,0.86,8.6,High,ShopAssistant2cor_frame_570 | person
+VID-136,Video,Crowd Gathering,N/A,0.73,7.3,High,"ShopAssistant2cor_frame_580 | person, tie"
+VID-137,Video,Crowd Gathering,N/A,0.87,8.7,High,ShopAssistant2cor_frame_590 | person
+VID-138,Video,Crowd Gathering,N/A,0.89,8.9,High,ShopAssistant2cor_frame_600 | person
+VID-139,Video,Crowd Gathering,N/A,0.77,7.7,High,"ShopAssistant2cor_frame_610 | person, tie"
+VID-140,Video,Crowd Gathering,N/A,0.8,8.0,High,"ShopAssistant2cor_frame_620 | person, tie"
+VID-141,Video,Crowd Gathering,N/A,0.84,8.4,High,"ShopAssistant2cor_frame_630 | person, tie"
+VID-142,Video,Crowd Gathering,N/A,0.78,7.8,High,"ShopAssistant2cor_frame_640 | person, tie"
+VID-143,Video,Crowd Gathering,N/A,0.85,8.5,High,"ShopAssistant2cor_frame_650 | person, tie"
+VID-144,Video,Crowd Gathering,N/A,0.84,8.4,High,"ShopAssistant2cor_frame_660 | person, tie"
+VID-145,Video,Crowd Gathering,N/A,0.79,7.9,High,"ShopAssistant2cor_frame_670 | person, tie"
+VID-146,Video,Crowd Gathering,N/A,0.62,6.2,Medium,"ShopAssistant2cor_frame_680 | person, tie"
+VID-147,Video,Crowd Gathering,N/A,0.66,6.6,Medium,"ShopAssistant2cor_frame_690 | person, tie"
+VID-148,Video,Crowd Gathering,N/A,0.7,7.0,High,"ShopAssistant2cor_frame_700 | person, tie"
+VID-149,Video,Crowd Gathering,N/A,0.64,6.4,Medium,"ShopAssistant2cor_frame_720 | person, tie"
+VID-150,Video,Crowd Gathering,N/A,0.52,5.2,Medium,ShopAssistant2cor_frame_1680 | person
+VID-151,Video,Crowd Gathering,N/A,0.64,6.4,Medium,ShopAssistant2cor_frame_3250 | person
+VID-152,Video,Crowd Gathering,N/A,0.7,7.0,High,"ShopAssistant2cor_frame_3260 | person, handbag"
+VID-153,Video,Crowd Gathering,N/A,0.85,8.5,High,ShopAssistant2cor_frame_3270 | person
+VID-154,Video,Crowd Gathering,N/A,0.71,7.1,High,"ShopAssistant2cor_frame_3280 | person, handbag"
+VID-155,Video,Crowd Gathering,N/A,0.66,6.6,Medium,ShopAssistant2cor_frame_3290 | person
+VID-156,Video,Crowd Gathering,N/A,0.88,8.8,High,ShopAssistant2cor_frame_3300 | person
+VID-157,Video,Crowd Gathering,N/A,0.72,7.2,High,"ShopAssistant2cor_frame_3340 | person, handbag"
+VID-158,Video,Crowd Gathering,N/A,0.69,6.9,Medium,"ShopAssistant2cor_frame_3350 | person, handbag"
+VID-159,Video,Crowd Gathering,N/A,0.73,7.3,High,"ShopAssistant2cor_frame_3360 | person, handbag"
+VID-160,Video,Crowd Gathering,N/A,0.71,7.1,High,"ShopAssistant2cor_frame_3370 | person, handbag"
+VID-161,Video,Crowd Gathering,N/A,0.71,7.1,High,"ShopAssistant2cor_frame_3380 | person, handbag"
+VID-162,Video,Crowd Gathering,N/A,0.78,7.8,High,"ShopAssistant2cor_frame_3390 | person, handbag"
+VID-163,Video,Crowd Gathering,N/A,0.69,6.9,Medium,"ShopAssistant2cor_frame_3400 | person, handbag"
+VID-164,Video,Crowd Gathering,N/A,0.71,7.1,High,"ShopAssistant2cor_frame_3410 | person, handbag"
+VID-165,Video,Crowd Gathering,N/A,0.67,6.7,Medium,"ShopAssistant2cor_frame_3420 | person, handbag"
+VID-166,Video,Crowd Gathering,N/A,0.72,7.2,High,"ShopAssistant2cor_frame_3430 | person, handbag"
+VID-167,Video,Crowd Gathering,N/A,0.64,6.4,Medium,"ShopAssistant2cor_frame_3440 | person, handbag"
+VID-168,Video,Crowd Gathering,N/A,0.72,7.2,High,"ShopAssistant2cor_frame_3450 | person, handbag"
+VID-169,Video,Crowd Gathering,N/A,0.71,7.1,High,ShopAssistant2cor_frame_3460 | person
+VID-170,Video,Crowd Gathering,N/A,0.72,7.2,High,ShopAssistant2cor_frame_3470 | person
+VID-171,Video,Crowd Gathering,N/A,0.73,7.3,High,ShopAssistant2cor_frame_3480 | person
+VID-172,Video,Crowd Gathering,N/A,0.67,6.7,Medium,ShopAssistant2cor_frame_3490 | person
+VID-173,Video,Crowd Gathering,N/A,0.72,7.2,High,ShopAssistant2cor_frame_3500 | person
+VID-174,Video,Crowd Gathering,N/A,0.67,6.7,Medium,ShopAssistant2cor_frame_3510 | person
+VID-175,Video,Crowd Gathering,N/A,0.75,7.5,High,ShopAssistant2cor_frame_3520 | person
+VID-176,Video,Crowd Gathering,N/A,0.84,8.4,High,ShopAssistant2cor_frame_3530 | person
+VID-177,Video,Crowd Gathering,N/A,0.83,8.3,High,ShopAssistant2cor_frame_3540 | person
+VID-178,Video,Crowd Gathering,N/A,0.82,8.2,High,ShopAssistant2cor_frame_3550 | person
+VID-179,Video,Crowd Gathering,N/A,0.79,7.9,High,ShopAssistant2cor_frame_3560 | person
+VID-180,Video,Crowd Gathering,N/A,0.67,6.7,Medium,ShopAssistant2cor_frame_3570 | person
+VID-181,Video,Crowd Gathering,N/A,0.61,6.1,Medium,"ShopAssistant2cor_frame_3580 | person, tie"
+VID-182,Video,Crowd Gathering,N/A,0.66,6.6,Medium,ShopAssistant2cor_frame_3590 | person
+VID-183,Video,Crowd Gathering,N/A,0.66,6.6,Medium,ShopAssistant2cor_frame_3600 | person
+VID-184,Video,Crowd Gathering,N/A,0.74,7.4,High,ShopAssistant2cor_frame_3610 | person
+VID-185,Video,Crowd Gathering,N/A,0.58,5.8,Medium,ShopAssistant2cor_frame_3620 | person
+VID-186,Video,Crowd Gathering,N/A,0.65,6.5,Medium,ShopAssistant2cor_frame_3630 | person
+VID-187,Video,Crowd Gathering,N/A,0.77,7.7,High,ShopAssistant2cor_frame_3640 | person
+VID-188,Video,Crowd Gathering,N/A,0.76,7.6,High,ShopAssistant2cor_frame_3650 | person
+VID-189,Video,Crowd Gathering,N/A,0.74,7.4,High,ShopAssistant2cor_frame_3660 | person
+VID-190,Video,Crowd Gathering,N/A,0.65,6.5,Medium,ShopAssistant2cor_frame_3680 | person
+VID-191,Video,Crowd Gathering,N/A,0.53,5.3,Medium,WalkByShop1cor_frame_200 | person
+VID-192,Video,Crowd Gathering,N/A,0.59,5.9,Medium,WalkByShop1cor_frame_210 | person
+VID-193,Video,Crowd Gathering,N/A,0.68,6.8,Medium,WalkByShop1cor_frame_1330 | person
+VID-194,Video,Crowd Gathering,N/A,0.69,6.9,Medium,WalkByShop1cor_frame_1340 | person
+VID-195,Video,Crowd Gathering,N/A,0.75,7.5,High,WalkByShop1cor_frame_1350 | person
+VID-196,Video,Crowd Gathering,N/A,0.77,7.7,High,WalkByShop1cor_frame_1360 | person
+VID-197,Video,Crowd Gathering,N/A,0.74,7.4,High,WalkByShop1cor_frame_1370 | person
+VID-198,Video,Crowd Gathering,N/A,0.76,7.6,High,WalkByShop1cor_frame_1380 | person
+VID-199,Video,Crowd Gathering,N/A,0.75,7.5,High,WalkByShop1cor_frame_1400 | person
+VID-200,Video,Crowd Gathering,N/A,0.73,7.3,High,WalkByShop1cor_frame_1800 | person
+VID-201,Video,Crowd Gathering,N/A,0.72,7.2,High,WalkByShop1cor_frame_1820 | person
+VID-202,Video,Crowd Gathering,N/A,0.79,7.9,High,WalkByShop1cor_frame_1830 | person
+VID-203,Video,Crowd Gathering,N/A,0.67,6.7,Medium,WalkByShop1cor_frame_1840 | person
+VID-204,Video,Crowd Gathering,N/A,0.72,7.2,High,WalkByShop1cor_frame_1850 | person
+VID-205,Video,Crowd Gathering,N/A,0.79,7.9,High,WalkByShop1cor_frame_1860 | person
+VID-206,Video,Crowd Gathering,N/A,0.84,8.4,High,WalkByShop1cor_frame_1880 | person
+VID-207,Video,Crowd Gathering,N/A,0.85,8.5,High,WalkByShop1cor_frame_1890 | person
+VID-208,Video,Crowd Gathering,N/A,0.81,8.1,High,WalkByShop1cor_frame_1900 | person
+VID-209,Video,Crowd Gathering,N/A,0.75,7.5,High,WalkByShop1cor_frame_1910 | person
+VID-210,Video,Crowd Gathering,N/A,0.85,8.5,High,WalkByShop1cor_frame_1920 | person
+VID-211,Video,Crowd Gathering,N/A,0.86,8.6,High,WalkByShop1cor_frame_1950 | person
+VID-212,Video,Crowd Gathering,N/A,0.82,8.2,High,WalkByShop1cor_frame_1960 | person
+VID-213,Video,Crowd Gathering,N/A,0.85,8.5,High,WalkByShop1cor_frame_1970 | person
+VID-214,Video,Crowd Gathering,N/A,0.62,6.2,Medium,WalkByShop1cor_frame_1990 | person
+VID-215,Video,Crowd Gathering,N/A,0.68,6.8,Medium,WalkByShop1cor_frame_2000 | person
+VID-216,Video,Crowd Gathering,N/A,0.82,8.2,High,WalkByShop1cor_frame_2030 | person
+VID-217,Video,Crowd Gathering,N/A,0.56,5.6,Medium,"WalkByShop1cor_frame_2040 | person, handbag"
+VID-218,Video,Crowd Gathering,N/A,0.64,6.4,Medium,WalkByShop1cor_frame_2050 | person
+VID-219,Video,Crowd Gathering,N/A,0.84,8.4,High,WalkByShop1cor_frame_2060 | person
+VID-220,Video,Crowd Gathering,N/A,0.61,6.1,Medium,WalkByShop1cor_frame_2070 | person
+VID-221,Video,Crowd Gathering,N/A,0.81,8.1,High,WalkByShop1cor_frame_2100 | person
+VID-222,Video,Crowd Gathering,N/A,0.83,8.3,High,WalkByShop1cor_frame_2140 | person
+VID-223,Video,Crowd Gathering,N/A,0.8,8.0,High,WalkByShop1cor_frame_2150 | person
+VID-224,Video,Crowd Gathering,N/A,0.82,8.2,High,WalkByShop1cor_frame_2160 | person
+VID-225,Video,Crowd Gathering,N/A,0.84,8.4,High,WalkByShop1cor_frame_2170 | person
+VID-226,Video,Crowd Gathering,N/A,0.82,8.2,High,WalkByShop1cor_frame_2180 | person
+VID-227,Video,Crowd Gathering,N/A,0.61,6.1,Medium,"WalkByShop1cor_frame_2210 | person, handbag"
+VID-228,Video,Crowd Gathering,N/A,0.82,8.2,High,WalkByShop1cor_frame_2220 | person
+VID-229,Video,Crowd Gathering,N/A,0.53,5.3,Medium,WalkByShop1cor_frame_2320 | person
+VID-230,Video,Crowd Gathering,N/A,0.53,5.3,Medium,WalkByShop1cor_frame_2330 | person
+TXT-001,Text,other,N/A,0.9902,9.9,High,"Active crime scene on I-59/20 near Jeff/Tusc Co line. One dead, one injured; shooting involved. Poli"
+TXT-002,Text,other,N/A,0.9781,9.78,High,Police have arrested a suspect in the Monday shooting at the basketball courts behind Word Tabernacl
+TXT-003,Text,other,Chicago,0.9972,9.97,High,Lawsuit alleges Chicago Police strip-searched trio in public http://t.co/NGVCe42BUW via @suntimes
+TXT-004,Text,other,N/A,0.9976,9.98,High,New NRA Advice: Don't Cooperate With Police If Your Gun Shows Up At A Crime Scene; http://t.co/f96j
+TXT-005,Text,other,N/A,0.9845,9.85,High,"Police failing to stamp out ‘honour crimes’, from domestic violence and forced marriage to FGM and m"
+TXT-006,Text,other,N/A,0.997,9.97,High,Today's front page: Police failing to stamp out ‘honour crimes’ http://t.co/SLuXLgbQbU http://t.co/
+TXT-007,Text,other,N/A,0.9947,9.95,High,Town of Tonawanda Police Search for Bank Robbery Suspect http://t.co/4aJxs3Mv9G http://t.co/320mwHfu
+TXT-008,Text,other,Pakistan,0.9962,9.96,High,"Due to lack of police protection, #Christians in #Pakistan become easy targets for crime and abuse."
+TXT-009,Text,other,N/A,0.9985,9.99,High,New #NRA Advice: Don't Cooperate With Police If Your Gun Shows Up At A Crime Scene http://t.co/ldIDJ
+TXT-010,Text,other,Baltimore,0.9884,9.88,High,Commish Batts makes a strong case for legalizing marijuana - to end the violent MJ trade in Baltimor
+TXT-011,Text,theft,N/A,0.9957,9.96,High,Police swoop on the homeless taking sleeping bags and food parcels in co-ordinated raids in Redbridg
+TXT-012,Text,other,N/A,0.9987,9.99,High,#NRAadvice: Don’t cooperate with police if your gun shows up at a crime scene: http://t.co/c96U10ed1
+TXT-013,Text,other,N/A,0.8688,8.69,High,#Police : Become a Special Constable and help cut crime http://t.co/taxFZeQ4Vx Devon Cornwall
+TXT-014,Text,other,N/A,0.9638,9.64,High,BREAKING NEWS: Judge’s ruling favors officers in Badger Guns suit: http://t.co/QcQP0vLtd4
+TXT-015,Text,other,N/A,0.995,9.95,High,Woman police sergeant dives in river to drag drowning woman to safety http://t.co/WKSZ2Obw1k via @Ma
+TXT-016,Text,other,Delhi,0.999,9.99,High,RT @blackmagicgal1: So AAP will continue to cry foul at Delhi police whenever a crime is reported ra
+TXT-017,Text,public disturbance,Delhi,0.9953,9.95,High,RT @shiven_gaur: Crime/Lawlessness has always been a problem in Delhi. Home minister and Delhi Polic
+TXT-018,Text,public disturbance,Delhi,0.9953,9.95,High,RT @shiven_gaur: Crime/Lawlessness has always been a problem in Delhi. Home minister and Delhi Polic
+TXT-019,Text,public disturbance,Delhi,0.9953,9.95,High,RT @shiven_gaur: Crime/Lawlessness has always been a problem in Delhi. Home minister and Delhi Polic
+TXT-020,Text,other,N/A,0.9978,9.98,High,RT @CherryFlavoredd: Cause there isn't any real crime anywhere.. RT @DrinkingTicket: Police around c
+TXT-021,Text,public disturbance,Delhi,0.9953,9.95,High,RT @shiven_gaur: Crime/Lawlessness has always been a problem in Delhi. Home minister and Delhi Polic
+TXT-022,Text,other,N/A,0.9978,9.98,High,RT @CherryFlavoredd: Cause there isn't any real crime anywhere.. RT @DrinkingTicket: Police around c
+TXT-023,Text,other,N/A,0.9987,9.99,High,RT @DemandAction: #NRAadvice: Don’t cooperate with police if your gun shows up at a crime scene: htt
+TXT-024,Text,public disturbance,Delhi,0.9953,9.95,High,RT @shiven_gaur: Crime/Lawlessness has always been a problem in Delhi. Home minister and Delhi Polic
+TXT-025,Text,other,N/A,0.9982,9.98,High,Cause there isn't any real crime anywhere.. RT @DrinkingTicket: Police around capstone dorm arrestin
+TXT-026,Text,theft,Delhi,0.9892,9.89,High,"India News Delhi Police arrests three in Rs 8 cr heist, some cash recovered, mastermind absconding"
+TXT-027,Text,other,Mumbai,0.9931,9.93,High,"India News Police sniffer dog's bark lands man in Mumbai jail for 10 years, High Court orders his re"
+TXT-028,Text,other,Delhi,0.9736,9.74,High,Crime/Lawlessness has always been a problem in Delhi. Home minister and Delhi Police are answerable.
+TXT-029,Text,other,N/A,0.9875,9.88,High,I added a video to a @YouTube playlist http://t.co/cir6DgKsvp World's Scariest Police Chases 4 (Crim
+TXT-030,Text,other,N/A,0.9949,9.95,High,New #Legal Remedy Against Police Activities Within Criminal Investigations - Mondaq News Alerts (reg
+TXT-031,Text,fire,N/A,0.994,9.94,High,Police seek witnesses to grass fires (Delahey - VIC): http://t.co/7OEdJQvhMi
+TXT-032,Text,other,N/A,0.9996,10.0,High,It's so shallow as for evry crime police is being blamed in #capital by govnment!they mean police ha
+TXT-033,Text,other,Onitsha,0.995,9.95,High,Police swoop on kidnappers’ den in Onitsha - http://t.co/HeOoghHHKt http://t.co/AuQrW32iil
+TXT-034,Text,other,N/A,0.9939,9.94,High,"RT @Gun_Shots: ""95% of the time police arrive too late to prevent a crime or arrest the suspect."" -"
+TXT-035,Text,other,N/A,0.9805,9.8,High,"@BansheeTvShow The entire police department, the bartender, the gay tech all were in the showdown bu"
+TXT-036,Text,other,N/A,0.9934,9.93,High,Police union wants lock out zones expanded: http://t.co/hu8zOehB7G
+TXT-037,Text,other,Petaluma,0.9876,9.88,High,Alert issued in Petaluma after men posing as police enter woman's home: http://t.co/Gq7RrjkwXs
+TXT-038,Text,other,Bay Area,0.995,9.95,High,Bay Area journos on crime beat: there are 4 police cars &amp; yellow tape at sunny spot med. MJ shop
+TXT-039,Text,other,N/A,0.9925,9.93,High,"RT @Darius_Suber95: Police are supposed to be fighting crime on the streets, not sitting in a hiding"
+TXT-040,Text,other,N/A,0.9865,9.87,High,Peel #Police - Male Arrested on Attempt Murder Warrant http://t.co/tDQE83bFXX #crime
+TXT-041,Text,other,St. Louis County,0.954,9.54,High,Belmar named St. Louis County police chief http://t.co/MXbeCRaJ5K
+TXT-042,Text,other,N/A,0.9992,9.99,High,RT @geophyraj: Is Mr @ArvindKejriwal going to blame Delhi Police for every crime in the city? Then w
+TXT-043,Text,other,N/A,0.9963,9.96,High,"""Men posing as police: Petaluma home invasion."" Uh, I'm not letting any cop in w/out a badge number"
+TXT-044,Text,assault,N/A,0.993,9.93,High,"#NidoTaniam paid for breaking the glass, why were the shopkeepers not made to pay for their crime of"
+TXT-045,Text,public disturbance,Pontchartrain Park,0.9904,9.9,High,The Times Picayune - Police investigating shooting in Pontchartrain Park http://t.co/iVehmyxnys
+TXT-046,Text,assault,N/A,0.993,9.93,High,"#NidoTaniam paid for breaking the glass, why were the shopkeepers not made to pay for their crime of"
+TXT-047,Text,other,Delhi,0.999,9.99,High,RT @blackmagicgal1: So AAP will continue to cry foul at Delhi police whenever a crime is reported ra
+TXT-048,Text,other,N/A,0.9906,9.91,High,#Justice U.S. Marshals Task Force and Toledo Police Arrest Final Suspect in Murder Case: Tole... htt
+TXT-049,Text,other,Petaluma,0.9888,9.89,High,Alert issued in Petaluma after men posing as police enter woman's home http://t.co/lVcwrHXthc #bayar
+TXT-050,Text,other,N/A,0.9822,9.82,High,Watching crime and investigation and one of the police audio analysis investigators is wearing a pai
+TXT-051,Text,other,Petaluma,0.9918,9.92,High,Alert issued in Petaluma after men posing as police enter woman's home: Petaluma police issued a pro
+TXT-052,Text,public disturbance,Pontchartrain Park http://t.co/ikLjlj9V6V,0.9877,9.88,High,via @NOLAnews Police investigating shooting in Pontchartrain Park http://t.co/ikLjlj9V6V
+TXT-053,Text,other,Detroit,0.9921,9.92,High,Police Chief James Craig: More guns could equal less crime in Detroit http://t.co/CACeNrG6Kt
+TXT-054,Text,other,N/A,0.9997,10.0,High,Again port st lucie!i know there's crime everywhere but they just stupid here http://t.co/qdSW6gWSA4
+TXT-055,Text,other,N/A,0.9932,9.93,High,Crime reports offered online http://t.co/gW087y5ELT
+TXT-056,Text,other,N/A,0.9927,9.93,High,Crime reports offered online http://t.co/tmzdPaJaWi
+TXT-057,Text,other,Lincolnshire,0.9763,9.76,High,Safeguarding: Investigation into 'why Lincolnshire police marked one third of all reported rapes as
+TXT-058,Text,other,Petaluma,0.9913,9.91,High,Alert issued in Petaluma after men posing as police enter woman's home: Petaluma police issued a pro
+TXT-059,Text,other,N/A,0.9995,10.0,High,RT @Sissy2814: Some ppl are unfit to deserve such loyal companion. This is a crime if you see this c
+TXT-060,Text,other,N/A,0.9995,10.0,High,RT @Sissy2814: Some ppl are unfit to deserve such loyal companion. This is a crime if you see this c
+TXT-061,Text,other,N/A,0.9934,9.93,High,Suburban Crime Log: 2-01 http://t.co/bCWfqPZo0W
+TXT-062,Text,other,N/A,0.9937,9.94,High,Suburban Crime Log: 2-01 http://t.co/rf5vK5sh5X
+TXT-063,Text,other,N/A,0.8486,8.49,High,UPDATED: Big data: police given access to British army's crime-fighting software http://t.co/XkU8xSx
+TXT-064,Text,other,N/A,0.9987,9.99,High,RT @DemandAction: #NRAadvice: Don’t cooperate with police if your gun shows up at a crime scene: htt
+TXT-065,Text,other,N/A,0.9934,9.93,High,"Arunachal student death: Delhi Police files murder case, magisterial probe ordered - Zee News http:/"
+TXT-066,Text,other,N/A,0.9081,9.08,High,"What if instead of police dogs, there were giant man-sized police spiders. There would never be cri"
+TXT-067,Text,other,Pontchartrain Park,0.9872,9.87,High,RT @NOLAnews: Police investigating shooting in Pontchartrain Park http://t.co/JFassdU7iv
+TXT-068,Text,other,Pontchartrain Park,0.9872,9.87,High,RT @NOLAnews: Police investigating shooting in Pontchartrain Park http://t.co/JFassdU7iv
+TXT-069,Text,public disturbance,Pontchartrain Park,0.9888,9.89,High,Police investigating shooting in Pontchartrain Park http://t.co/JFassdU7iv
+TXT-070,Text,other,N/A,0.9102,9.1,High,"Tip helps Clarksville police foil school shooting, CPD says http://t.co/69W4Bkxaf4"
+TXT-071,Text,other,Simi Valley,0.9988,9.99,High,Simi Valley sees second-safest year on record: Police said Friday that Simi Valley's crime rate fell
+TXT-072,Text,other,Pontchartrain Park,0.9909,9.91,High,Police investigating shooting in Pontchartrain Park: Man shot in Gentilly neighborhood Saturday (Jan
+TXT-073,Text,other,N/A,0.9922,9.92,High,RT @awkwardposts: Imagine if Police had giant police spiders instead of police dogs. There would be
+TXT-074,Text,other,N/A,0.994,9.94,High,"Behind teen’s heroin overdose death, a troubling trend http://t.co/cxb8uv4giR"
+TXT-075,Text,other,N/A,0.9977,9.98,High,Police searching for victims in alleged child porn bust http://t.co/bFxRozE3FW
+TXT-076,Text,public disturbance,Pontchartrain Park http://t.co/BzP5fIOhAo,0.9894,9.89,High,Police investigating shooting in Pontchartrain Park http://t.co/BzP5fIOhAo
+TXT-077,Text,other,Springfield,0.9626,9.63,High,"Police: Drugs, definitions behind crime rise: The number of serious crimes reported to Springfield p"
+TXT-078,Text,other,N/A,0.9808,9.81,High,"News-Leader: Police: Drugs, definitions behind crime rise http://t.co/F9w3NAuM2K"
+TXT-079,Text,other,Delhi,0.9977,9.98,High,"RT @SinghRPN: .@AngellicAribam Yes,hv spoken to Delhi police for full and speedy probe,it is the mos"
+TXT-080,Text,other,West Yorkshire’s,0.952,9.52,High,West Yorkshire’s police commissioner announces two per cent council tax hike: WEST Yorkshire’s polic
+TXT-081,Text,other,San Francisco,0.9992,9.99,High,"""San Francisco police don’t keep crime stats as well as #Oakland"" http://t.co/IcDYOF9VgI"
+TXT-082,Text,other,N/A,0.9993,9.99,High,"RT @girlweena: Just heard a police detective say ""interwishin'"" instead of ""intuition"" and am now co"
+TXT-083,Text,other,N/A,0.9939,9.94,High,"@stephgrain My response won't change from ""no comment."" If u have knowledge of a crime report to htt"
+TXT-084,Text,other,N/A,0.9936,9.94,High,McLean High School student’s heroin overdose shows disturbing trend facing police http://t.co/tqZiCJ
+TXT-085,Text,other,N/A,0.9935,9.94,High,McLean High School student’s heroin overdose shows disturbing trend facing police http://t.co/IcOKW2
+TXT-086,Text,other,N/A,0.9946,9.95,High,McLean High School student’s heroin overdose shows disturbing trend facing police http://t.co/V8DiQn
+TXT-087,Text,other,N/A,0.9934,9.93,High,McLean High School student’s heroin overdose shows disturbing trend facing police http://t.co/aCmS22
+TXT-088,Text,other,N/A,0.9925,9.93,High,McLean High School student’s heroin overdose shows disturbing trend facing police http://t.co/cuhrnm
+TXT-089,Text,other,N/A,0.9939,9.94,High,McLean High School student’s heroin overdose shows disturbing trend facing police http://t.co/lmetos
+TXT-090,Text,other,N/A,0.9949,9.95,High,McLean High School student’s heroin overdose shows disturbing trend facing police http://t.co/dSIiQN
+TXT-091,Text,other,N/A,0.9927,9.93,High,"Crime prevention education, animal control services &amp; house watch are just a few ways our police"
+TXT-092,Text,other,N/A,0.9984,9.98,High,@Vote4AAP @AamAadmiParty @MSisodia&gt;RSS etc's Bigotry-Irrationality-Misogyny a Way o Life-80% Ppl
+TXT-093,Text,other,N/A,0.9976,9.98,High,@pataz1 Her DNA was not found mixed all over the crime scene. Also Perugia's police allowed crime sc
+TXT-094,Text,other,N/A,0.9505,9.51,High,RT @ABCNews24_: Now: Greens Hansen Young says closure of Mt Thomas police station reckless and will
+TXT-095,Text,other,N/A,0.702,7.02,High,2/2 Police will assist with injured animals when they are on a highway or where a crime is suspected
+TXT-096,Text,other,N/A,0.9956,9.96,High,@NoMoreDemocracy there's crime in it but no police or anything like that.
+TXT-097,Text,other,Delhi,0.9977,9.98,High,"RT @SinghRPN: .@AngellicAribam Yes,hv spoken to Delhi police for full and speedy probe,it is the mos"
+TXT-098,Text,other,N/A,0.9941,9.94,High,Heroin sold in McDonald's Happy Meals: Police http://t.co/4ZLnMPX3rc @bskousen we could of been rich
+TXT-099,Text,other,N/A,0.992,9.92,High,Man sentenced for fraud: FLORENCE — A man who police said took advantage of a good Samaritan has bee
+TXT-100,Text,other,N/A,0.9776,9.78,High,#police #judgment #crime #court http://t.co/yXXZSpnmGO notes 6 #Laws You've Broken Without Even Real
+TXT-101,Text,other,Delhi,0.9977,9.98,High,"RT @SinghRPN: .@AngellicAribam Yes,hv spoken to Delhi police for full and speedy probe,it is the mos"
+TXT-102,Text,other,N/A,0.9987,9.99,High,RT @DemandAction: #NRAadvice: Don’t cooperate with police if your gun shows up at a crime scene: htt
+TXT-103,Text,other,Delhi,0.9977,9.98,High,"RT @SinghRPN: .@AngellicAribam Yes,hv spoken to Delhi police for full and speedy probe,it is the mos"
+TXT-104,Text,other,N/A,0.994,9.94,High,Baby Boy Death: 3 Arrested Over Murder http://t.co/rVZCBbtAEi #News #Crime #Police #PoliceAppeal
+TXT-105,Text,assault,N/A,0.9867,9.87,High,"RT @AbusedChildren: Richland: Police: Convicted child rapist living in Richland | Crime, fires &amp;"
+TXT-106,Text,assault,N/A,0.9905,9.91,High,RT @AsperCat: French police arrest the man who tortured a cat and recorded it for Facebook: The Fre
+TXT-107,Text,assault,N/A,0.9867,9.87,High,"RT @AbusedChildren: Richland: Police: Convicted child rapist living in Richland | Crime, fires &amp;"
+TXT-108,Text,other,N/A,0.997,9.97,High,"RT @BaltoSpectator: I uploaded a new track, ""Lying Bastards Of Baltimore Police"", on @spreaker #balt"
+TXT-109,Text,other,Delhi,0.999,9.99,High,RT @blackmagicgal1: So AAP will continue to cry foul at Delhi police whenever a crime is reported ra
+TXT-110,Text,other,N/A,0.979,9.79,High,RT @bradybuzz: BREAKING NEWS: Judge’s ruling favors officers in Badger Guns suit: http://t.co/QcQP0v
+TXT-111,Text,other,N/A,0.9956,9.96,High,Driver blows over legal limit http://t.co/PvczzPY7EB #crime #Police #WestPerth
+TXT-112,Text,other,N/A,0.979,9.79,High,RT @bradybuzz: BREAKING NEWS: Judge’s ruling favors officers in Badger Guns suit: http://t.co/QcQP0v
+TXT-113,Text,assault,N/A,0.9917,9.92,High,RT @flintjournal: Police news: Billboards tout anonymity of new Crime Stoppers hotline; Hamady janit
+TXT-114,Text,other,N/A,0.9993,9.99,High,"RT @girlweena: Just heard a police detective say ""interwishin'"" instead of ""intuition"" and am now co"
+TXT-115,Text,other,N/A,0.9993,9.99,High,Wyoming Highway Patrol mourns loss of K-9 unit - Casper Star-Tribune Online http://t.co/w4Iagyh5sx #
+DOC-001,Document,other / unspecified,N/A,0.35,3.5,Medium,(no extractable text from LESO2.pdf)
